@@ -31,7 +31,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Test LRUCache and TwoQCache")
     parser.add_argument("--alpha", type=float, default=1.0, help="Exponent for power law sampling")
     parser.add_argument("--cache_size_fraction", type=float, default=0.1, help="Fraction of cache occupied by one data entry")
-    parser.add_argument("--sequence_length", type=float, default=1500, help="Numbers of prompts")
+    parser.add_argument("--sequence_length", type=float, default=800, help="Numbers of prompts")
     args = parser.parse_args()
 
     alpha = float(args.alpha)
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     np.random.seed(42)
     data_path = "/Users/shenyang/Desktop/MS Research/workplace/data/142_docs.txt"
     max_size = int(668 / cache_size_fraction)
-    k_value = int(max_size * 0.25)
+    k_value = int(max_size * 0.35)
     
     data = read_block_data_v3(data_path)[:]
     selected_inputs = power_law_sampling(len(data),sequence_length=sequence_length, exponent=alpha)

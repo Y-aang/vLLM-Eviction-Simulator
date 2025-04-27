@@ -38,8 +38,8 @@ class TwoQCache:
         if key in self.A1in:
             self.A1in[key] = value
             # self.A1in.move_to_end(key)      # Define LRU or FIFO for A1in
-            # value = self.A1in.pop(key)
-            # self._promote_to_Am(key, value)
+            value = self.A1in.pop(key)      # define whether it's a ARC-2Q or traditional-2Q
+            self._promote_to_Am(key, value)
             return
 
         if key in self.A1out:
