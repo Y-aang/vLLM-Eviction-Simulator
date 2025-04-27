@@ -1,9 +1,9 @@
 import numpy as np
 import sys
 import argparse
-from LRU_v2 import LRUCache
-from two_q import TwoQCache
-from ARC import ARCCache
+from cache.LRU_v2 import LRUCache
+from cache.two_q import TwoQCache
+from cache.ARC import ARCCache
 
 def read_block_data_v3(path):
     with open(path, "r") as f:
