@@ -43,17 +43,17 @@ class DBLCache:
             self._promote_to_Am(key, value)
             return
 
-        # if key in self.A1out:           # [ghost cache]
-        #     assert len(self.A1in) + len(self.Am) <= self.max_size
-        #     if len(self.A1in) + len(self.Am) == self.max_size:
-        #         self.Am.popitem(last=False)
-        #     self.A1out.remove(key)
-        #     self._promote_to_Am(key, value)
+        if key in self.A1out:           # [ghost cache]
+            assert len(self.A1in) + len(self.Am) <= self.max_size
+            if len(self.A1in) + len(self.Am) == self.max_size:
+                self.Am.popitem(last=False)
+            self.A1out.remove(key)
+            self._promote_to_Am(key, value)
 
         assert len(self.A1in) <= self.k
         if len(self.A1in) == self.k:
             old_key, _ = self.A1in.popitem(last=False)
-            # self.A1out.append(old_key)  # [ghost cache]
+            self.A1out.append(old_key)  # [ghost cache]
             self.A1in[key] = value
         else:
             assert len(self.A1in) + len(self.Am) <= self.max_size
