@@ -5,6 +5,7 @@ from cache.LRU_v2 import LRUCache
 from cache.two_q import TwoQCache
 from cache.ARC import ARCCache
 from cache.DBL import DBLCache
+from cache.DBL_PQ import DBLCachePQ
 
 def read_block_data_v3(path):
     with open(path, "r") as f:
@@ -54,7 +55,6 @@ if __name__ == "__main__":
             lru_cache.get(key)
         for key, value in reversed(row):
             lru_cache.put(key, value)
-
     print(f"LRUCache Hit Rate: {lru_cache.hit_rate():.2%}")
     
     dbl_cache = DBLCache(max_size=max_size)
@@ -63,8 +63,15 @@ if __name__ == "__main__":
             dbl_cache.get(key)
         for key, value in reversed(row):
             dbl_cache.put(key, value)
-
     print(f"DBLCache Hit Rate: {dbl_cache.hit_rate():.2%}")
+    
+    dbl_cache_pq = DBLCachePQ(max_size=max_size)
+    for row in data:
+        for key, value in row:
+            dbl_cache_pq.get(key)
+        for key, value in reversed(row):
+            dbl_cache_pq.put(key, value)
+    print(f"DBLCachePQ Hit Rate: {dbl_cache_pq.hit_rate():.2%}")
 
     two_q_cache = TwoQCache(max_size=max_size, k=k_value)
     for row in data:
@@ -72,7 +79,6 @@ if __name__ == "__main__":
             two_q_cache.get(key)
         for key, value in reversed(row):
             two_q_cache.put(key, value)
-
     print(f"TwoQCache Hit Rate: {two_q_cache.hit_rate():.2%}")
     
     arc_cache = ARCCache(max_size=max_size)
@@ -81,7 +87,6 @@ if __name__ == "__main__":
             arc_cache.get(key)
         for key, value in reversed(row):
             arc_cache.put(key, value)
-
     print(f"ARCCache Hit Rate: {arc_cache.hit_rate():.2%}")
 
     result_filename = f"./result/full_results_alpha_{alpha}.txt"
