@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
     cache = ARCCache(max_size=600 * 10)  # 或 LRUCache
     for i, row in enumerate(data):
-        print('i:', i)
+        # print('i:', i)
         for key, value in row:
             cache.get(key)
         for key, value in reversed(row):
