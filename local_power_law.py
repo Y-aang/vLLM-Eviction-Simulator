@@ -30,6 +30,56 @@ def power_law_sampling(num_elements, sequence_length=1500, exponent=1.0):
     sampled_indices = np.random.choice(values - 1, size=sequence_length, p=probabilities)
     return [data[i] for i in sampled_indices]
 
+def power_law_with_hotspot(data, total_length=1500, exponent=1.0, 
+                           window_size=50, hotspot_ratio=0.1, hotspot_boost=10):
+    num_windows = total_length // window_size
+    result = []
+    num_elements = len(data)
+    values = np.arange(1, num_elements + 1)
+    base_prob = values ** -exponent
+    base_prob /= base_prob.sum()
+
+    for _ in range(num_windows):
+        hotspot_indices = np.random.choice(num_elements, size=max(1, int(hotspot_ratio * window_size)), replace=False)
+        prob = base_prob.copy()
+        prob[hotspot_indices] *= hotspot_boost
+        prob /= prob.sum()
+        
+        sampled_indices = np.random.choice(num_elements, size=window_size, p=prob)
+        # print('hotspot_indices', hotspot_indices)
+        # print('sampled_indices', sampled_indices)
+        result.extend([data[i] for i in sampled_indices])
+
+    return result
+
+def pure_hotspot_sampling(data, sequence_length=1500, 
+                          hotspot_fraction=0.1, hotspot_access_ratio=0.8):
+    """
+    - hotspot_fraction: 热点文档占全部文档的比例
+    - hotspot_access_ratio: 最终访问序列中，热点文档占多少比例
+    """
+    num_elements = len(data)
+    num_hotspots = max(1, int(hotspot_fraction * num_elements))
+
+    # 随机选择固定的热点文档
+    hotspot_indices = np.random.choice(num_elements, size=num_hotspots, replace=False)
+    all_indices = np.arange(num_elements)
+    cold_indices = np.setdiff1d(all_indices, hotspot_indices)
+
+    num_hotspot_accesses = int(sequence_length * hotspot_access_ratio)
+    num_cold_accesses = sequence_length - num_hotspot_accesses
+
+    # 随机访问
+    hotspot_samples = np.random.choice(hotspot_indices, size=num_hotspot_accesses, replace=True)
+    cold_samples = np.random.choice(cold_indices, size=num_cold_accesses, replace=True)
+
+    # 混合打乱顺序
+    all_samples = np.concatenate([hotspot_samples, cold_samples])
+    np.random.shuffle(all_samples)
+
+    return [data[i] for i in all_samples], all_samples.tolist()
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Test LRUCache and TwoQCache")
     parser.add_argument("--alpha", type=float, default=1.0, help="Exponent for power law sampling")
@@ -47,7 +97,18 @@ if __name__ == "__main__":
     k_value = int(max_size * 0.25)
     
     data = read_block_data_v3(data_path)[:]
-    selected_inputs = power_law_sampling(len(data),sequence_length=sequence_length, exponent=alpha)
+    # selected_inputs = power_law_sampling(len(data),sequence_length=sequence_length, exponent=alpha)
+    # selected_inputs = power_law_with_hotspot(
+    #     data, total_length=sequence_length, exponent=alpha,
+    #     window_size=50, hotspot_ratio=0.1, hotspot_boost=10
+    # )
+    selected_inputs, selected_indices = pure_hotspot_sampling(
+        data=data, 
+        sequence_length=750, 
+        hotspot_fraction=0.1,          # 5 个热点文档
+        hotspot_access_ratio=0.8       # 热点访问占 80%
+    )
+
     data = selected_inputs
 
     lru_cache = LRUCache(max_size=max_size)
