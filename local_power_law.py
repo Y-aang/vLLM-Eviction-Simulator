@@ -1,6 +1,7 @@
 import numpy as np
 import sys
 import argparse
+from tqdm import tqdm
 from cache.LRU_v2 import LRUCache
 from cache.two_q import TwoQCache
 from cache.ARC import ARCCache
@@ -98,16 +99,16 @@ if __name__ == "__main__":
     
     data = read_block_data_v3(data_path)[:]
     # selected_inputs = power_law_sampling(len(data),sequence_length=sequence_length, exponent=alpha)
-    # selected_inputs = power_law_with_hotspot(
-    #     data, total_length=sequence_length, exponent=alpha,
-    #     window_size=50, hotspot_ratio=0.1, hotspot_boost=10
-    # )
-    selected_inputs, selected_indices = pure_hotspot_sampling(
-        data=data, 
-        sequence_length=750, 
-        hotspot_fraction=0.1,          # 5 个热点文档
-        hotspot_access_ratio=0.8       # 热点访问占 80%
+    selected_inputs = power_law_with_hotspot(
+        data, total_length=sequence_length, exponent=alpha,
+        window_size=50, hotspot_ratio=0.1, hotspot_boost=10
     )
+    # selected_inputs, selected_indices = pure_hotspot_sampling(
+    #     data=data, 
+    #     sequence_length=sequence_length, 
+    #     hotspot_fraction=0.1,          # 5 个热点文档
+    #     hotspot_access_ratio=0.8       # 热点访问占 80%
+    # )
 
     data = selected_inputs
 
@@ -155,7 +156,7 @@ if __name__ == "__main__":
     print(f"TwoQCache Hit Rate: {two_q_cache.hit_rate():.2%}")
     
     arc_cache = ARCCache(max_size=max_size)
-    for row in data:
+    for idx, row in enumerate(tqdm(data)):
         for key, value in row:
             arc_cache.get(key)
         for key, value in reversed(row):

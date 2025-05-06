@@ -1,6 +1,7 @@
 import numpy as np
 import sys
 import argparse
+from tqdm import tqdm
 from cache.LRU_v2 import LRUCache
 from cache.two_q import TwoQCache
 from cache.ARC import ARCCache
@@ -28,13 +29,14 @@ def power_law_sampling(num_elements, sequence_length=1500, exponent=1.0):
     probabilities = values ** -exponent
     probabilities /= probabilities.sum()
     sampled_indices = np.random.choice(values - 1, size=sequence_length, p=probabilities)
+    print('sampled_indices', sampled_indices)
     return [data[i] for i in sampled_indices]
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Test LRUCache and TwoQCache")
     parser.add_argument("--alpha", type=float, default=1.0, help="Exponent for power law sampling")
     parser.add_argument("--cache_size_fraction", type=float, default=0.1, help="Fraction of cache occupied by one data entry")
-    parser.add_argument("--sequence_length", type=float, default=750, help="Numbers of prompts")
+    parser.add_argument("--sequence_length", type=float, default=150, help="Numbers of prompts")    # 750
     args = parser.parse_args()
 
     alpha = float(args.alpha)
@@ -94,11 +96,16 @@ if __name__ == "__main__":
     print(f"TwoQCache Hit Rate: {two_q_cache.hit_rate():.2%}")
     
     arc_cache = ARCCache(max_size=max_size)
-    for row in data:
+    for idx, row in enumerate(tqdm(data)):
+        # if row[0][0] in arc_cache.T1 or row[0][0] in arc_cache.T2:
+        #     print('hit')
+        # else:
+        #     print('miss')
         for key, value in row:
             arc_cache.get(key)
         for key, value in reversed(row):
             arc_cache.put(key, value)
+        # print(f"Step {idx+1} ARCCache T1: {len(arc_cache.T1)}, T2: {len(arc_cache.T2)}, B1: {len(arc_cache.B1)}, B2: {len(arc_cache.B2)}, p: {arc_cache.p}")
     print(f"ARCCache Hit Rate: {arc_cache.hit_rate():.2%}")
 
     # result_filename = f"./result/full_results_alpha_{alpha}.txt"

@@ -60,18 +60,22 @@ class ARCCache:
             # 根据 ARC 算法调整 p
             delta = max(1, len(self.B2) // max(1, len(self.B1)))
             self.p = min(self.p + delta, self.max_size)
-            self.B1.remove(key)
             if len(self.T1) + len(self.T2) >= self.max_size:
                 self._replace(key)
+            self.B1.remove(key)
+            # if len(self.T1) + len(self.T2) >= self.max_size:
+            #     self._replace(key)
             self.T2[key] = value
             return
 
         if key in self.B2:
             delta = max(1, len(self.B1) // max(1, len(self.B2)))
             self.p = max(self.p - delta, 0)
-            self.B2.remove(key)
             if len(self.T1) + len(self.T2) >= self.max_size:
                 self._replace(key)
+            self.B2.remove(key)
+            # if len(self.T1) + len(self.T2) >= self.max_size:
+            #     self._replace(key)
             self.T2[key] = value
             return
 
@@ -89,10 +93,10 @@ class ARCCache:
             if len(self.T1) < self.max_size:
                 if self.B1:
                     self.B1.popleft()  # 删除 B1 的 LRU
+                    self._replace(key)
             else:
-                if self.T1:
+                if self.T1:     # T1占满
                     self.T1.popitem(last=False)  # 删除 T1 的 LRU
-            self._replace(key)
         elif L1_size < self.max_size:
             total_size = len(self.T1) + len(self.T2) + len(self.B1) + len(self.B2)
             if total_size >= self.max_size:
@@ -112,6 +116,7 @@ class ARCCache:
         - 否则，从 T2 淘汰最旧的项，并将其 key 放入 B2。
         """
         if self.T1 and ((key in self.B2 and len(self.T1) == self.p) or (len(self.T1) > self.p)):
+            # assert (key in self.B2 and len(self.T1) == self.p) == False
             old_key, _ = self.T1.popitem(last=False)
             self.B1.append(old_key)
         elif self.T2:
