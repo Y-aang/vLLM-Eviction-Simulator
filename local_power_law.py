@@ -5,6 +5,7 @@ from tqdm import tqdm
 from cache.LRU_v2 import LRUCache
 from cache.two_q import TwoQCache
 from cache.ARC import ARCCache
+from cache.ARC_PQ import ARCCachePQ
 from cache.DBL import DBLCache
 from cache.DBL_PQ import DBLCachePQ
 from cache.LFU import LFUCache
@@ -162,6 +163,14 @@ if __name__ == "__main__":
         for key, value in reversed(row):
             arc_cache.put(key, value)
     print(f"ARCCache Hit Rate: {arc_cache.hit_rate():.2%}")
+    
+    # arc_pq_cache = ARCCachePQ(max_size=max_size)
+    # for idx, row in enumerate(tqdm(data)):
+    #     for key, value in row:
+    #         arc_pq_cache.get(key)
+    #     for key, value in reversed(row):
+    #         arc_pq_cache.put(key, value)
+    # print(f"ARCCache(PQ) Hit Rate: {arc_pq_cache.hit_rate():.2%}")
 
     # result_filename = f"./result/full_results_alpha_{alpha}.txt"
     # with open(result_filename, "a") as f:

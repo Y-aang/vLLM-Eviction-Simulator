@@ -45,11 +45,13 @@ class ARCCache:
         """
         # 若 key 已存在于实际数据中，直接更新 value
         if key in self.T1:
+            # print('hit T1')
             # 提升到 T2 的 MRU（同时更新 value）
             self.T2[key] = self.T1.pop(key)
             self.T2.move_to_end(key, last=True)
             return
         elif key in self.T2:
+            # print('hit T2')
             # 更新 value，并移动到 MRU
             self.T2[key] = value
             self.T2.move_to_end(key, last=True)
@@ -57,6 +59,7 @@ class ARCCache:
 
         # 如果 key 在 ghost 列表中
         if key in self.B1:
+            # print('hit B1')
             # 根据 ARC 算法调整 p
             delta = max(1, len(self.B2) // max(1, len(self.B1)))
             self.p = min(self.p + delta, self.max_size)
@@ -69,6 +72,7 @@ class ARCCache:
             return
 
         if key in self.B2:
+            # print('hit B2')
             delta = max(1, len(self.B1) // max(1, len(self.B2)))
             self.p = max(self.p - delta, 0)
             if len(self.T1) + len(self.T2) >= self.max_size:
@@ -120,12 +124,14 @@ class ARCCache:
             old_key, _ = self.T1.popitem(last=False)
             self.B1.append(old_key)
         elif self.T2:
+            # print('remove T2')
             old_key, _ = self.T2.popitem(last=False)
             self.B2.append(old_key)
 
     def _prune_ghosts(self):
         """ 保证 ghost 列表 B1 和 B2 的大小不超过 max_size """
         while len(self.B1) > self.max_size:
+            assert False
             self.B1.popleft()
         while len(self.B2) > self.max_size:
             self.B2.popleft()

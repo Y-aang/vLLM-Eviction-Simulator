@@ -1,9 +1,11 @@
 import numpy as np
 import sys
 import argparse
+from tqdm import tqdm
 from cache.LRU_v2 import LRUCache
 from cache.two_q import TwoQCache
 from cache.ARC import ARCCache
+from cache.ARC_PQ import ARCCachePQ
 from cache.DBL_PQ import DBLCachePQ
 
 def read_block_data_v3(path):
@@ -63,3 +65,29 @@ if __name__ == "__main__":
     # # print("\nFinal Cache State:")
     # print("Cache:", cache.cache)
     # print(f"Hit Rate: {cache.hit_rate()}")
+
+    arc_cache = ARCCache(max_size=max_size)
+    for idx, row in enumerate(tqdm(data)):
+        # if row[0][0] in arc_cache.T1 or row[0][0] in arc_cache.T2:
+        #     print('hit')
+        # else:
+        #     print('miss')
+        for key, value in row:
+            arc_cache.get(key)
+        for key, value in reversed(row):
+            arc_cache.put(key, value)
+        print(f"Step {idx+1} ARCCache T1: {len(arc_cache.T1)}, T2: {len(arc_cache.T2)}, B1: {len(arc_cache.B1)}, B2: {len(arc_cache.B2)}, p: {arc_cache.p}")
+    print(f"ARCCache Hit Rate: {arc_cache.hit_rate():.2%}")
+    
+    arc_pq_cache = ARCCachePQ(max_size=max_size)
+    for idx, row in enumerate(tqdm(data)):
+        # if row[0][0] in arc_cache.T1 or row[0][0] in arc_cache.T2:
+        #     print('hit')
+        # else:
+        #     print('miss')
+        for key, value in row:
+            arc_pq_cache.get(key)
+        for key, value in row:
+            arc_pq_cache.put(key, value)
+        # print(f"Step {idx+1} ARCCache T1: {len(arc_pq_cache.T1)}, T2: {len(arc_pq_cache.T2)}, B1: {len(arc_pq_cache.B1)}, B2: {len(arc_pq_cache.B2)}, p: {arc_pq_cache.p}")
+    print(f"ARCCache Hit Rate: {arc_pq_cache.hit_rate():.2%}")
