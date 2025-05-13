@@ -1,5 +1,6 @@
 from collections import OrderedDict, deque
 import numpy as np
+from tqdm import tqdm
 
 class ARCCache:
     def __init__(self, max_size):
@@ -96,7 +97,8 @@ class ARCCache:
         if L1_size == self.max_size:
             if len(self.T1) < self.max_size:
                 if self.B1:
-                    self.B1.popleft()  # 删除 B1 的 LRU
+                    poped_content_hash = self.B1.popleft()  # 删除 B1 的 LRU
+                    # print('B miss, popleft(), hash:', poped_content_hash, 'key', key)
                     self._replace(key)
             else:
                 if self.T1:     # T1占满
@@ -109,7 +111,7 @@ class ARCCache:
                 self._replace(key)
         # 插入新 key 到 T1 的 MRU 位置
         self.T1[key] = value
-        self._prune_ghosts()
+        # self._prune_ghosts()
 
     def _replace(self, key):
         """
@@ -132,9 +134,12 @@ class ARCCache:
         """ 保证 ghost 列表 B1 和 B2 的大小不超过 max_size """
         while len(self.B1) > self.max_size:
             assert False
-            self.B1.popleft()
+            contant_hash = self.B1.popleft()
+            # print("B1 pop", contant_hash)
         while len(self.B2) > self.max_size:
-            self.B2.popleft()
+            assert False
+            contant_hash = self.B2.popleft()
+            # print("B1 pop", contant_hash)
 
     def hit_rate(self):
         return self.hit_count / self.access_count if self.access_count > 0 else 0.0
@@ -149,7 +154,7 @@ def read_block_data_v3(path):
             for i, line in enumerate(lines) if line]
     return data
 
-def power_law_sampling(num_elements, sequence_length=1000, exponent=1.0):
+def power_law_sampling(num_elements, sequence_length=10000, exponent=1.0):
     values = np.arange(1, num_elements + 1)
     probabilities = values ** -exponent
     probabilities /= probabilities.sum()
@@ -168,7 +173,7 @@ if __name__ == "__main__":
     data = power_law_sampling(len(data))
 
     cache = ARCCache(max_size=600 * 10)  # 或 LRUCache
-    for i, row in enumerate(data):
+    for i, row in enumerate(tqdm(data)):
         # print('i:', i)
         for key, value in row:
             cache.get(key)

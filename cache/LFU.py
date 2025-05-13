@@ -1,5 +1,6 @@
 from collections import defaultdict, OrderedDict
 import numpy as np
+from tqdm import tqdm
 
 class LFUCache:
     def __init__(self, max_size):
@@ -61,7 +62,7 @@ def read_block_data_v3(path):
     
     return data
 
-def power_law_sampling(num_elements, sequence_length=1000, exponent=1.0):
+def power_law_sampling(num_elements, sequence_length=100, exponent=1.0):
     values = np.arange(1, num_elements + 1)
     probabilities = values ** -exponent
     probabilities /= probabilities.sum()

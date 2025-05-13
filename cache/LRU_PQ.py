@@ -1,38 +1,58 @@
 from collections import OrderedDict
 import numpy as np
+import heapq
+import itertools
 from tqdm import tqdm
 
-flag = False
-
-class LRUCache:
+class LRUPQCache:
     def __init__(self, max_size):
         self.max_size = max_size
-        self.cache = OrderedDict()
+        # key -> (value, timestamp)
+        self._cache = {}
+        # min-heap of (timestamp, key)
+        self._heap = []
+        # 全局单调递增计数器，用作时间戳
+        self._counter = itertools.count()
+        # 命中统计
         self.hit_count = 0
         self.access_count = 0
-    
+
     def get(self, key):
         self.access_count += 1
+        entry = self._cache.get(key)
+        if entry is None:
+            return None
 
-        if key in self.cache:
-            self.hit_count += 1
-            self.cache.move_to_end(key)
-            return self.cache[key]
-        return None
+        # 命中，更新命中数
+        self.hit_count += 1
+        value, _ = entry
+        # 生成新时间戳并更新字典和堆
+        ts = next(self._counter)
+        self._cache[key] = (value, ts)
+        heapq.heappush(self._heap, (ts, key))
+        return value
 
     def put(self, key, value):
-        global flag
-        self.cache[key] = value
-        self.cache.move_to_end(key)
+        # 生成新时间戳
+        ts = next(self._counter)
+        # 无论新增还是更新，都把最新 (value, ts) 放到字典，并入堆
+        self._cache[key] = (value, ts)
+        heapq.heappush(self._heap, (ts, key))
 
-        if len(self.cache) > self.max_size:
-            # print("evict")
-            flag = True
-            self.cache.popitem(last=False)
+        # 如果超出容量，就驱逐最旧的那条
+        if len(self._cache) > self.max_size:
+            # 一直弹堆顶，直到找到一个在字典中时间戳匹配的条目
+            while self._heap:
+                oldest_ts, oldest_key = heapq.heappop(self._heap)
+                # 如果字典里这条记录的时间戳正是 popped 的，就是真正的最旧项
+                cur = self._cache.get(oldest_key)
+                if cur is not None and cur[1] == oldest_ts:
+                    # 驱逐它
+                    del self._cache[oldest_key]
+                    break
 
     def hit_rate(self):
         return self.hit_count / self.access_count if self.access_count > 0 else 0.0
-
 
 def read_block_data_v3(path):
     with open(path, "r") as f:
@@ -62,18 +82,11 @@ if __name__ == "__main__":
     selected_inputs = power_law_sampling(len(data))
     data = selected_inputs
 
-    cache = LRUCache(max_size=600 * 10)     # 2383
+    cache = LRUPQCache(max_size=600 * 10)     # 2383
     for i, row in enumerate(tqdm(data)):
         for key, value in row:
             # print(f"Accessed ({key}):")
             cache.get(key)
         for key, value in reversed(row):
             cache.put(key, value)
-        
-        # if flag==True:
-        #     print('evict happen')
-        # print(f"{i} round - Hit Rate: {cache.hit_rate()} Hit count: {cache.hit_count} Access count: {cache.access_count}")
-
-    # # print("\nFinal Cache State:")
-    # print("Cache:", cache.cache)
     print(f"Hit Rate: {cache.hit_rate()}")

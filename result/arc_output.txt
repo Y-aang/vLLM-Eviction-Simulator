@@ -1,108 +1,328 @@
-[80, 192, 184, 40, 85, 85, 85, 106, 149, 100, 85, 205, 75, 185, 185, 185, 66, 56, 207, 66, 45, 85, 66, 80, 99, 105, 185, 56, 40, 85, 149, 85, 85, 121, 140, 126, 66, 85, 40, 207, 85, 137, 85, 116, 185, 37, 66, 56, 72, 185, 56, 54, 44, 116, 40, 49, 85, 185, 85, 66, 37, 66, 64, 80, 66, 23, 85, 70, 85, 139, 235, 185, 85, 112, 100, 184, 235, 85, 80, 85, 125, 72, 66, 85, 66, 66, 184, 180, 78, 129, 85, 142, 110, 78, 235, 137, 56, 207, 85, 85]
-Average length: 105.47
-LRUCache Hit Rate: 36.80%
-DBLCache Hit Rate: 36.64%
-  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 2997.52it/s]
-Step 1 ARCCache T1: 80, T2: 0, B1: 0, B2: 0, p: 0
-Step 2 ARCCache T1: 272, T2: 0, B1: 0, B2: 0, p: 0
-Step 3 ARCCache T1: 456, T2: 0, B1: 0, B2: 0, p: 0
-Step 4 ARCCache T1: 496, T2: 0, B1: 0, B2: 0, p: 0
-Step 5 ARCCache T1: 581, T2: 0, B1: 0, B2: 0, p: 0
-Step 6 ARCCache T1: 496, T2: 85, B1: 0, B2: 0, p: 0
-Step 7 ARCCache T1: 496, T2: 85, B1: 0, B2: 0, p: 0
-Step 8 ARCCache T1: 602, T2: 85, B1: 0, B2: 0, p: 0
-Step 9 ARCCache T1: 751, T2: 85, B1: 0, B2: 0, p: 0
-Step 10 ARCCache T1: 851, T2: 85, B1: 0, B2: 0, p: 0
-Step 11 ARCCache T1: 851, T2: 85, B1: 0, B2: 0, p: 0
-Step 12 ARCCache T1: 948, T2: 85, B1: 85, B2: 0, p: 0
-Step 13 ARCCache T1: 948, T2: 85, B1: 85, B2: 0, p: 0
-Step 14 ARCCache T1: 948, T2: 85, B1: 85, B2: 0, p: 0
-Step 15 ARCCache T1: 763, T2: 270, B1: 85, B2: 0, p: 0
-Step 16 ARCCache T1: 763, T2: 270, B1: 85, B2: 0, p: 0
-Step 17 ARCCache T1: 763, T2: 270, B1: 151, B2: 0, p: 0
-Step 18 ARCCache T1: 763, T2: 270, B1: 207, B2: 0, p: 0
-Step 19 ARCCache T1: 763, T2: 270, B1: 270, B2: 0, p: 0
-Step 20 ARCCache T1: 697, T2: 336, B1: 270, B2: 0, p: 0
-Step 21 ARCCache T1: 697, T2: 336, B1: 315, B2: 0, p: 0
-Step 22 ARCCache T1: 697, T2: 336, B1: 315, B2: 0, p: 0
-Step 23 ARCCache T1: 697, T2: 336, B1: 315, B2: 0, p: 0
-Step 24 ARCCache T1: 697, T2: 336, B1: 336, B2: 0, p: 0
-Step 25 ARCCache T1: 697, T2: 336, B1: 336, B2: 0, p: 0
-Step 26 ARCCache T1: 697, T2: 336, B1: 336, B2: 0, p: 0
-Step 27 ARCCache T1: 697, T2: 336, B1: 336, B2: 0, p: 0
-Step 28 ARCCache T1: 641, T2: 392, B1: 336, B2: 0, p: 0
-Step 29 ARCCache T1: 641, T2: 392, B1: 376, B2: 0, p: 0
-Step 30 ARCCache T1: 641, T2: 392, B1: 376, B2: 0, p: 0
-Step 31 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 32 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 33 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 34 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 35 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 36 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 37 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 38 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 39 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 40 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 41 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 42 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 43 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 44 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 45 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 46 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 47 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 48 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 49 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 50 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 51 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 52 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 53 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 54 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 55 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 56 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 57 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 58 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 59 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 60 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 61 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 62 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 63 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 64 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 65 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 66 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 67 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 68 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 69 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 70 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 71 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 72 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 73 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 74 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 75 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 76 ARCCache T1: 641, T2: 392, B1: 392, B2: 0, p: 0
-Step 77 ARCCache T1: 406, T2: 627, B1: 392, B2: 0, p: 0
-Step 78 ARCCache T1: 406, T2: 627, B1: 392, B2: 0, p: 0
-Step 79 ARCCache T1: 326, T2: 707, B1: 392, B2: 0, p: 80
-Step 80 ARCCache T1: 326, T2: 707, B1: 392, B2: 0, p: 80
-Step 81 ARCCache T1: 326, T2: 707, B1: 517, B2: 0, p: 80
-Step 82 ARCCache T1: 326, T2: 707, B1: 589, B2: 0, p: 80
-Step 83 ARCCache T1: 326, T2: 707, B1: 589, B2: 0, p: 80
-Step 84 ARCCache T1: 326, T2: 707, B1: 589, B2: 0, p: 80
-Step 85 ARCCache T1: 326, T2: 707, B1: 589, B2: 0, p: 80
-Step 86 ARCCache T1: 326, T2: 707, B1: 589, B2: 0, p: 80
-Step 87 ARCCache T1: 197, T2: 836, B1: 534, B2: 55, p: 258
-Step 88 ARCCache T1: 259, T2: 774, B1: 652, B2: 117, p: 258
-Step 89 ARCCache T1: 259, T2: 774, B1: 730, B2: 117, p: 258
-Step 90 ARCCache T1: 259, T2: 774, B1: 774, B2: 117, p: 258
-Step 91 ARCCache T1: 259, T2: 774, B1: 774, B2: 117, p: 258
-Step 92 ARCCache T1: 259, T2: 774, B1: 774, B2: 117, p: 258
-Step 93 ARCCache T1: 259, T2: 774, B1: 774, B2: 117, p: 258
-Step 94 ARCCache T1: 259, T2: 774, B1: 774, B2: 117, p: 258
-Step 95 ARCCache T1: 259, T2: 774, B1: 774, B2: 117, p: 258
-Step 96 ARCCache T1: 259, T2: 774, B1: 774, B2: 117, p: 258
-Step 97 ARCCache T1: 203, T2: 830, B1: 830, B2: 61, p: 0
-Step 98 ARCCache T1: 203, T2: 830, B1: 830, B2: 61, p: 0
-Step 99 ARCCache T1: 203, T2: 830, B1: 830, B2: 61, p: 0
-Step 100 ARCCache T1: 203, T2: 830, B1: 830, B2: 61, p: 0
-ARCCache Hit Rate: 42.20%
-  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 2686.80it/s]
-ARCCache Hit Rate: 42.20%
+[185, 66, 85, 55, 85, 129, 185, 161, 56, 45, 98, 85, 222, 40, 185, 192, 222, 98, 92, 222, 185, 80, 94, 47, 67, 47, 72, 85, 37, 66, 185, 205, 207, 110, 47, 210, 72, 180, 23, 185, 85, 223, 94, 137, 85, 56, 137, 185, 99, 207, 47, 98, 85, 37, 37, 23, 125, 129, 85, 85, 230, 37, 66, 116, 185, 230, 85, 56, 85, 143, 72, 178, 85, 78, 40, 23, 47, 153, 129, 47, 45, 80, 78, 129, 45, 207, 23, 185, 23, 207, 92, 23, 41, 180, 185, 64, 80, 80, 85, 115, 104, 80, 202, 185, 129, 105, 45, 129, 207, 80, 56, 197, 110, 85, 116, 192, 185, 85, 110, 40, 80, 196, 85, 80, 207, 72, 161, 80, 80, 235, 129, 185, 129, 85, 185, 56, 207, 57, 37, 149, 40, 40, 64, 185, 85, 85, 174, 66, 222, 222, 40, 185, 49, 99, 207, 72, 85, 85, 184, 85]
+Average length: 112.7125
+LRUCache Hit Rate: 30.75%
+DBLCache Hit Rate: 37.66%
+  0%|          | 0/160 [00:00<?, ?it/s] 99%|█████████▉| 159/160 [00:00<00:00, 1554.10it/s]100%|██████████| 160/160 [00:00<00:00, 1557.37it/s]
+ARCCache Hit Rate: 43.33%
+  0%|          | 0/160 [00:00<?, ?it/s]Step 1 ARCCache T1: 185, T2: 0, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 0.00%
+Step 2 ARCCache T1: 251, T2: 0, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 0.00%
+Step 3 ARCCache T1: 336, T2: 0, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 0.00%
+Step 4 ARCCache T1: 391, T2: 0, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 0.00%
+Step 5 ARCCache T1: 306, T2: 85, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 17.86%
+Step 6 ARCCache T1: 435, T2: 85, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 14.05%
+Step 7 ARCCache T1: 250, T2: 270, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 34.18%
+Step 8 ARCCache T1: 411, T2: 270, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 28.39%
+Step 9 ARCCache T1: 467, T2: 270, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 26.81%
+Step 10 ARCCache T1: 512, T2: 270, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 25.67%
+Step 11 ARCCache T1: 610, T2: 270, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 23.48%
+Step 12 ARCCache T1: 610, T2: 270, B1: 0, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 28.74%
+Step 13 ARCCache T1: 763, T2: 270, B1: 69, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 24.37%
+Step 14 ARCCache T1: 763, T2: 270, B1: 109, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 23.71%
+Step 15 ARCCache T1: 763, T2: 270, B1: 109, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 32.10%
+Step 16 ARCCache T1: 763, T2: 270, B1: 270, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 28.82%
+Step 17 ARCCache T1: 541, T2: 492, B1: 270, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 36.35%
+Step 18 ARCCache T1: 443, T2: 590, B1: 270, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 39.20%
+Step 19 ARCCache T1: 443, T2: 590, B1: 362, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 37.62%
+Step 20 ARCCache T1: 443, T2: 590, B1: 362, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 43.14%
+Step 21 ARCCache T1: 443, T2: 590, B1: 362, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 47.05%
+Step 22 ARCCache T1: 443, T2: 590, B1: 442, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 45.69%
+Step 23 ARCCache T1: 443, T2: 590, B1: 536, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 44.19%
+Step 24 ARCCache T1: 443, T2: 590, B1: 583, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 43.48%
+Step 25 ARCCache T1: 443, T2: 590, B1: 590, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 42.50%
+Step 26 ARCCache T1: 396, T2: 637, B1: 590, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 43.39%
+Step 27 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 42.39%
+Step 28 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 43.92%
+Step 29 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 43.42%
+Step 30 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 42.55%
+Step 31 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 45.61%
+Step 32 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 43.07%
+Step 33 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 40.77%
+Step 34 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 39.65%
+Step 35 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 40.35%
+Step 36 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 38.36%
+Step 37 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 37.72%
+Step 38 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 36.21%
+Step 39 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 36.03%
+Step 40 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 38.54%
+Step 41 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 39.63%
+Step 42 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 37.87%
+Step 43 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 37.17%
+Step 44 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 36.20%
+Step 45 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 37.22%
+Step 46 ARCCache T1: 396, T2: 637, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 36.83%
+Step 47 ARCCache T1: 259, T2: 774, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 38.40%
+Step 48 ARCCache T1: 259, T2: 774, B1: 637, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 40.39%
+Step 49 ARCCache T1: 259, T2: 774, B1: 736, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 39.70%
+Step 50 ARCCache T1: 259, T2: 774, B1: 774, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 38.34%
+Step 51 ARCCache T1: 259, T2: 774, B1: 774, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 38.82%
+Step 52 ARCCache T1: 259, T2: 774, B1: 774, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 39.79%
+Step 53 ARCCache T1: 259, T2: 774, B1: 774, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 40.61%
+Step 54 ARCCache T1: 259, T2: 774, B1: 774, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 40.37%
+Step 55 ARCCache T1: 259, T2: 774, B1: 774, B2: 0, p: 0
+ARCTimestampCache Hit Rate: 40.13%
+Step 56 ARCCache T1: 236, T2: 797, B1: 774, B2: 0, p: 23
+ARCTimestampCache Hit Rate: 39.99%
+Step 57 ARCCache T1: 236, T2: 797, B1: 797, B2: 0, p: 23
+ARCTimestampCache Hit Rate: 39.22%
+Step 58 ARCCache T1: 236, T2: 797, B1: 797, B2: 0, p: 23
+ARCTimestampCache Hit Rate: 38.45%
+Step 59 ARCCache T1: 236, T2: 797, B1: 797, B2: 0, p: 23
+ARCTimestampCache Hit Rate: 39.23%
+Step 60 ARCCache T1: 236, T2: 797, B1: 797, B2: 0, p: 23
+ARCTimestampCache Hit Rate: 39.99%
+Step 61 ARCCache T1: 236, T2: 797, B1: 797, B2: 0, p: 23
+ARCTimestampCache Hit Rate: 38.68%
+Step 62 ARCCache T1: 199, T2: 834, B1: 797, B2: 0, p: 60
+ARCTimestampCache Hit Rate: 38.48%
+Step 63 ARCCache T1: 199, T2: 834, B1: 834, B2: 0, p: 60
+ARCTimestampCache Hit Rate: 38.12%
+Step 64 ARCCache T1: 199, T2: 834, B1: 834, B2: 0, p: 60
+ARCTimestampCache Hit Rate: 37.51%
+Step 65 ARCCache T1: 199, T2: 834, B1: 834, B2: 0, p: 60
+ARCTimestampCache Hit Rate: 39.07%
+Step 66 ARCCache T1: 121, T2: 912, B1: 682, B2: 152, p: 273
+ARCTimestampCache Hit Rate: 38.11%
+Step 67 ARCCache T1: 121, T2: 912, B1: 682, B2: 152, p: 273
+ARCTimestampCache Hit Rate: 38.80%
+Step 68 ARCCache T1: 177, T2: 856, B1: 682, B2: 208, p: 273
+ARCTimestampCache Hit Rate: 38.52%
+Step 69 ARCCache T1: 177, T2: 856, B1: 682, B2: 208, p: 273
+ARCTimestampCache Hit Rate: 39.18%
+Step 70 ARCCache T1: 274, T2: 759, B1: 728, B2: 305, p: 273
+ARCTimestampCache Hit Rate: 38.48%
+Step 71 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 38.14%
+Step 72 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.32%
+Step 73 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.95%
+Step 74 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.60%
+Step 75 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.42%
+Step 76 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.59%
+Step 77 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.94%
+Step 78 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.27%
+Step 79 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 36.72%
+Step 80 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 37.06%
+Step 81 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 36.87%
+Step 82 ARCCache T1: 274, T2: 759, B1: 759, B2: 274, p: 273
+ARCTimestampCache Hit Rate: 36.54%
+Step 83 ARCCache T1: 274, T2: 759, B1: 681, B2: 352, p: 351
+ARCTimestampCache Hit Rate: 36.23%
+Step 84 ARCCache T1: 145, T2: 888, B1: 681, B2: 352, p: 351
+ARCTimestampCache Hit Rate: 37.12%
+Step 85 ARCCache T1: 100, T2: 933, B1: 681, B2: 352, p: 351
+ARCTimestampCache Hit Rate: 37.43%
+Step 86 ARCCache T1: 307, T2: 726, B1: 681, B2: 352, p: 351
+ARCTimestampCache Hit Rate: 36.61%
+Step 87 ARCCache T1: 330, T2: 703, B1: 681, B2: 352, p: 351
+ARCTimestampCache Hit Rate: 36.52%
+Step 88 ARCCache T1: 232, T2: 801, B1: 779, B2: 254, p: 138
+ARCTimestampCache Hit Rate: 36.50%
+Step 89 ARCCache T1: 209, T2: 824, B1: 779, B2: 254, p: 138
+ARCTimestampCache Hit Rate: 36.66%
+ 92%|█████████▏| 147/160 [00:00<00:00, 1454.52it/s]100%|██████████| 160/160 [00:00<00:00, 1404.79it/s]
+Step 90 ARCCache T1: 2, T2: 1031, B1: 779, B2: 254, p: 138
+ARCTimestampCache Hit Rate: 37.98%
+Step 91 ARCCache T1: 94, T2: 939, B1: 779, B2: 254, p: 138
+ARCTimestampCache Hit Rate: 37.63%
+Step 92 ARCCache T1: 94, T2: 939, B1: 779, B2: 254, p: 138
+ARCTimestampCache Hit Rate: 37.78%
+Step 93 ARCCache T1: 135, T2: 898, B1: 779, B2: 254, p: 138
+ARCTimestampCache Hit Rate: 37.62%
+Step 94 ARCCache T1: 139, T2: 894, B1: 894, B2: 139, p: 138
+ARCTimestampCache Hit Rate: 36.96%
+Step 95 ARCCache T1: 139, T2: 894, B1: 894, B2: 139, p: 138
+ARCTimestampCache Hit Rate: 38.08%
+Step 96 ARCCache T1: 139, T2: 894, B1: 894, B2: 139, p: 138
+ARCTimestampCache Hit Rate: 37.85%
+Step 97 ARCCache T1: 139, T2: 894, B1: 814, B2: 219, p: 218
+ARCTimestampCache Hit Rate: 37.56%
+Step 98 ARCCache T1: 139, T2: 894, B1: 814, B2: 219, p: 218
+ARCTimestampCache Hit Rate: 38.03%
+Step 99 ARCCache T1: 139, T2: 894, B1: 814, B2: 219, p: 194
+ARCTimestampCache Hit Rate: 38.45%
+Step 100 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.04%
+Step 101 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 37.68%
+Step 102 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.13%
+Step 103 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 37.44%
+Step 104 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.46%
+Step 105 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.03%
+Step 106 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 37.68%
+Step 107 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 37.93%
+Step 108 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.60%
+Step 109 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.66%
+Step 110 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 40.06%
+Step 111 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.88%
+Step 112 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.24%
+Step 113 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.89%
+Step 114 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.31%
+Step 115 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.95%
+Step 116 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.37%
+Step 117 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.24%
+Step 118 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.63%
+Step 119 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.30%
+Step 120 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.19%
+Step 121 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.55%
+Step 122 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 38.98%
+Step 123 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.36%
+Step 124 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.71%
+Step 125 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 40.61%
+Step 126 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 40.40%
+Step 127 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.94%
+Step 128 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 40.28%
+Step 129 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 40.61%
+Step 130 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 39.96%
+Step 131 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 40.48%
+Step 132 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 41.23%
+Step 133 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 41.73%
+Step 134 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 42.06%
+Step 135 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 42.76%
+Step 136 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 42.61%
+Step 137 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 43.37%
+Step 138 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 43.21%
+Step 139 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 43.11%
+Step 140 ARCCache T1: 195, T2: 838, B1: 838, B2: 195, p: 194
+ARCTimestampCache Hit Rate: 42.70%
+Step 141 ARCCache T1: 195, T2: 838, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 42.59%
+Step 142 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 42.49%
+Step 143 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 42.32%
+Step 144 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 42.98%
+Step 145 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 43.28%
+Step 146 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 43.58%
+Step 147 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 43.11%
+Step 148 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 42.94%
+Step 149 ARCCache T1: 235, T2: 798, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 42.37%
+Step 150 ARCCache T1: 13, T2: 1020, B1: 798, B2: 235, p: 234
+ARCTimestampCache Hit Rate: 43.13%
+Step 151 ARCCache T1: 13, T2: 1020, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 43.03%
+Step 152 ARCCache T1: 13, T2: 1020, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 43.64%
+Step 153 ARCCache T1: 62, T2: 971, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 43.52%
+Step 154 ARCCache T1: 161, T2: 872, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 43.27%
+Step 155 ARCCache T1: 161, T2: 872, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 43.94%
+Step 156 ARCCache T1: 233, T2: 800, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 43.76%
+Step 157 ARCCache T1: 233, T2: 800, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 44.03%
+Step 158 ARCCache T1: 233, T2: 800, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 44.29%
+Step 159 ARCCache T1: 275, T2: 758, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 43.84%
+Step 160 ARCCache T1: 275, T2: 758, B1: 758, B2: 275, p: 274
+ARCTimestampCache Hit Rate: 44.11%
+ARCTimestampCache Hit Rate: 44.11%

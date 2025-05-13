@@ -1,21 +1,18 @@
 from collections import OrderedDict, deque
 import numpy as np
 import heapq
-import itertools
 from tqdm import tqdm
 
-class ARCCachePQ:
+class ARCSeqCache:
     def __init__(self, max_size):
         self.max_size = max_size
         self.T1_heap = []  # (timestamp, key)
         self.T1_data = {}  # key -> (timestamp, value)
-        self.T2_heap = []
+        self.T2_heap = []  # (timestamp, key)
         self.T2_data = {}
 
         self.B1 = deque()
         self.B2 = deque()
-
-        self.time = itertools.count()
 
         self.p = 0
         self.hit_count = 0
@@ -31,18 +28,16 @@ class ARCCachePQ:
             return self.T2_data[key][1]
         return None
 
-    def put(self, key, value):
+    def put(self, key, value, timestamp):
         if key in self.T1_data:
             # Promote to T2
             old_value = self.T1_data.pop(key)[1]
-            timestamp = next(self.time)
             self.T2_data[key] = (timestamp, old_value)
             heapq.heappush(self.T2_heap, (timestamp, key))
             return
 
         if key in self.T2_data:
             # Refresh T2
-            timestamp = next(self.time)
             self.T2_data[key] = (timestamp, value)
             heapq.heappush(self.T2_heap, (timestamp, key))
             return
@@ -54,7 +49,6 @@ class ARCCachePQ:
             self.B1.remove(key)
             if len(self.T1_data) + len(self.T2_data) >= self.max_size:
                 self._replace(key)
-            timestamp = next(self.time)
             self.T2_data[key] = (timestamp, value)
             heapq.heappush(self.T2_heap, (timestamp, key))
             return
@@ -65,12 +59,11 @@ class ARCCachePQ:
             self.B2.remove(key)
             if len(self.T1_data) + len(self.T2_data) >= self.max_size:
                 self._replace(key)
-            timestamp = next(self.time)
             self.T2_data[key] = (timestamp, value)
             heapq.heappush(self.T2_heap, (timestamp, key))
             return
 
-        # 新key插入
+        # 新key插入，严格遵循原始逻辑
         # print("miss")
         L1_size = len(self.T1_data) + len(self.B1)
         if L1_size == self.max_size:
@@ -81,7 +74,6 @@ class ARCCachePQ:
             else:
                 if self.T1_data:
                     self._evict_from_T1()
-            # self._replace(key)
         elif L1_size < self.max_size:
             total_size = len(self.T1_data) + len(self.T2_data) + len(self.B1) + len(self.B2)
             if total_size >= self.max_size:
@@ -89,7 +81,7 @@ class ARCCachePQ:
                     self.B2.popleft()
                 self._replace(key)
 
-        timestamp = next(self.time)
+        # 使用外部传入的时间戳
         self.T1_data[key] = (timestamp, value)
         heapq.heappush(self.T1_heap, (timestamp, key))
         self._prune_ghosts()
@@ -136,7 +128,7 @@ def read_block_data_v3(path):
             for i, line in enumerate(lines) if line]
     return data
 
-def power_law_sampling(num_elements, sequence_length=800, exponent=1.0):
+def power_law_sampling(data, num_elements, sequence_length=1000, exponent=1.0):
     values = np.arange(1, num_elements + 1)
     probabilities = values ** -exponent
     probabilities /= probabilities.sum()
@@ -148,20 +140,18 @@ if __name__ == "__main__":
     np.random.seed(42)
     data_path = "/Users/shenyang/Desktop/MS Research/workplace/data/142_docs.txt"
     data = read_block_data_v3(data_path)
-    line_lengths = [len(line) for line in data]
-    print(line_lengths)
-    print("Average length:", np.mean(line_lengths))
+    data = power_law_sampling(data, len(data))
 
-    data = power_law_sampling(len(data))
+    cache = ARCSeqCache(max_size=600 * 10)
 
-    cache = ARCCachePQ(max_size=600 * 10)  # 或 LRUCache
-    for i, row in enumerate(tqdm(data)):
-        # print('i:', i)
-        for key, value in row:
+    for seq_id, row in enumerate(tqdm(data)):
+        for word_id, (key, value) in enumerate(row):
+            timestamp = (seq_id, -word_id)  # 外部传入的时间戳
             cache.get(key)
-        for key, value in reversed(row):
-            cache.put(key, value)
-        # print(f"Step {i+1} ARCPQCache T1: {len(cache.T1_data)}, T2: {len(cache.T2_data)}, B1: {len(cache.B1)}, B2: {len(cache.B2)}, p: {cache.p}")
+        for word_id, (key, value) in enumerate(row):
+            timestamp = (seq_id, -word_id)  # 外部传入的时间戳
+            cache.put(key, value, timestamp)
+        # print(f"Step {seq_id+1} ARCSeqCache T1: {len(cache.T1_data)}, T2: {len(cache.T2_data)}, B1: {len(cache.B1)}, B2: {len(cache.B2)}, p: {cache.p}")
         # print(f"Hit Rate: {cache.hit_rate():.2%}")
         
     print(f"Hit Rate: {cache.hit_rate():.2%}")

@@ -102,7 +102,7 @@ if __name__ == "__main__":
     # selected_inputs = power_law_sampling(len(data),sequence_length=sequence_length, exponent=alpha)
     selected_inputs = power_law_with_hotspot(
         data, total_length=sequence_length, exponent=alpha,
-        window_size=50, hotspot_ratio=0.1, hotspot_boost=10
+        window_size=20, hotspot_ratio=0.1, hotspot_boost=10     # 50 0.1 10
     )
     # selected_inputs, selected_indices = pure_hotspot_sampling(
     #     data=data, 
