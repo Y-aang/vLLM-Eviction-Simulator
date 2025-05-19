@@ -31,6 +31,7 @@ class ARCTimestampCache:
     def put(self, key, value, timestamp):
         if key in self.T1_data:
             # Promote to T2
+            # print('hit T1')
             old_value = self.T1_data.pop(key)[1]
             self.T2_data[key] = (timestamp, old_value)
             heapq.heappush(self.T2_heap, (timestamp, key))
@@ -38,6 +39,7 @@ class ARCTimestampCache:
 
         if key in self.T2_data:
             # Refresh T2
+            # print('hit T2')
             self.T2_data[key] = (timestamp, value)
             heapq.heappush(self.T2_heap, (timestamp, key))
             return
@@ -54,6 +56,7 @@ class ARCTimestampCache:
             return
 
         if key in self.B2:
+            # print("hit B2")
             delta = max(1, len(self.B1) // max(1, len(self.B2)))
             self.p = max(self.p - delta, 0)
             self.B2.remove(key)
@@ -64,7 +67,8 @@ class ARCTimestampCache:
             return
 
         # 新key插入，严格遵循原始逻辑
-        # print("miss")
+        print("miss")
+        print(f"T1 T2 B1 B2: {len(self.T1_data)} | {len(self.T2_data)} | {len(self.B1)} | {len(self.B2)}")
         L1_size = len(self.T1_data) + len(self.B1)
         if L1_size == self.max_size:
             if len(self.T1_data) < self.max_size:
@@ -73,6 +77,7 @@ class ARCTimestampCache:
                     self._replace(key)
             else:
                 if self.T1_data:
+                    print('miss - evict from T1')
                     self._evict_from_T1()
         elif L1_size < self.max_size:
             total_size = len(self.T1_data) + len(self.T2_data) + len(self.B1) + len(self.B2)
@@ -88,25 +93,33 @@ class ARCTimestampCache:
 
     def _replace(self, key):
         if self.T1_data and ((key in self.B2 and len(self.T1_data) == self.p) or (len(self.T1_data) > self.p)):
-            self._evict_from_T1()
+            print("replace T1")
+            evicted_key = self._evict_from_T1()
+            self.B1.append(evicted_key)
         elif self.T2_data:
-            self._evict_from_T2()
+            print("replace T2")
+            evicted_key = self._evict_from_T2()
+            self.B2.append(evicted_key)
+        else:
+            assert False
 
     def _evict_from_T1(self):
         while self.T1_heap:
             timestamp, key = heapq.heappop(self.T1_heap)
             if key in self.T1_data and self.T1_data[key][0] == timestamp:
-                self.B1.append(key)
+                # self.B1.append(key)
                 del self.T1_data[key]
-                return
+                return key
+        assert False
 
     def _evict_from_T2(self):
         while self.T2_heap:
             timestamp, key = heapq.heappop(self.T2_heap)
             if key in self.T2_data and self.T2_data[key][0] == timestamp:
-                self.B2.append(key)
+                # self.B2.append(key)
                 del self.T2_data[key]
-                return
+                return key
+        assert False
 
     def _prune_ghosts(self):
         while len(self.B1) > self.max_size:

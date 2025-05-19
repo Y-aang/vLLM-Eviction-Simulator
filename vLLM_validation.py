@@ -15,10 +15,18 @@ def read_block_data_v3(path):
     
     data = [[(int(num), str(i + 1)) for num in line.split()]  # 每行作为一个子列表
             for i, line in enumerate(lines) if line]  # 过滤空行
-
+    # 统计长度
+    lengths = [len(block) for block in data]
+    avg_len = sum(lengths) / len(lengths)
+    print(f"📊 Total blocks: {len(data)}")
+    print(f"📏 Average block length: {avg_len:.2f}")
+    print(f"🔢 Min: {min(lengths)}, Max: {max(lengths)}")
     return data
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Test LRUCache and TwoQCache")
+    parser.add_argument("--cp_ratio", type=float, default=1.0, help="Exponent for power law sampling")
+    cp_ratio = parser.parse_args().cp_ratio
     np.random.seed(42)
     data_path = "/Users/shenyang/Desktop/MS Research/workplace/data/vLLM_valid.txt"
     data = read_block_data_v3(data_path)[:]
@@ -29,7 +37,11 @@ if __name__ == "__main__":
     # selected_inputs = power_law_sampling(len(data))
     # data = selected_inputs
 
-    max_size = 1033
+    # max_size = 1033
+    max_size = 193.80 / 16.0 * cp_ratio     # mistral
+    max_size = 11350.43 / 16.0 * cp_ratio     # SmolLM2-360M-Instruct
+    max_size = 11170.23 / 16.0 * cp_ratio     # Qwen2.5-1.5B-Instruct
+    print("max_size for cache:", max_size)
     k_value = int(max_size * 0.25)
     lru_cache = LRUCache(max_size=max_size)
     for idx, row in enumerate(data):
@@ -40,15 +52,15 @@ if __name__ == "__main__":
         # print(f"LRUCache Hit Rate: {idx}: {lru_cache.hit_rate():.2%}")
     print(f"LRUCache Hit Rate: {lru_cache.hit_rate():.2%}")
     
-    dbl_cache_pq = DBLCachePQ(max_size=max_size)
-    for idx, row in enumerate(data):
-        for key, value in row:
-            dbl_cache_pq.get(key)
-        for key, value in reversed(row):
-            dbl_cache_pq.put(key, value)
-        # print(f"TwoQCache Hit Rate: {idx + 1}: {dbl_cache_pq.hit_rate():.2%}")
-        # print(f"Step {idx} DBLCache A1: {len(dbl_cache_pq.A1in_data)}, Am: {len(dbl_cache_pq.Am_data)}, Hit: {dbl_cache_pq.hit_rate():.2%}")
-    print(f"DBLCache Hit Rate: {dbl_cache_pq.hit_rate():.2%}")
+    # dbl_cache_pq = DBLCachePQ(max_size=max_size)
+    # for idx, row in enumerate(tqdm(data)):
+    #     for key, value in row:
+    #         dbl_cache_pq.get(key)
+    #     for key, value in reversed(row):
+    #         dbl_cache_pq.put(key, value)
+    #     # print(f"TwoQCache Hit Rate: {idx + 1}: {dbl_cache_pq.hit_rate():.2%}")
+    #     # print(f"Step {idx} DBLCache A1: {len(dbl_cache_pq.A1in_data)}, Am: {len(dbl_cache_pq.Am_data)}, Hit: {dbl_cache_pq.hit_rate():.2%}")
+    # print(f"DBLCache Hit Rate: {dbl_cache_pq.hit_rate():.2%}")
 
     # two_q_cache = TwoQCache(max_size=max_size, k=k_value)
     # for idx, row in enumerate(data):
