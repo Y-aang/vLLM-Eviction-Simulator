@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 删除旧的结果文件
-ALPHA=6.0
+ALPHA=1.0
 RESULT_FILE="./result/full_results_alpha_${ALPHA}.txt"
 rm -f $RESULT_FILE
 
