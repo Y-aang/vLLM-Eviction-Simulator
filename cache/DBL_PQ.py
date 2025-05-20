@@ -2,11 +2,12 @@ from collections import OrderedDict, deque
 import numpy as np
 import heapq
 import itertools
+import math
 
 class DBLCachePQ:
     def __init__(self, max_size):
         self.k = int(max_size * 0.5)
-        self.max_size = max_size
+        self.max_size = math.ceil(max_size)
         
         self.A1in_heap = []     # heap of (timestamp, key)
         self.A1in_data = {}     # key -> (timestamp, value)

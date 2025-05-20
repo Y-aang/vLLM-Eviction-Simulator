@@ -52,15 +52,15 @@ if __name__ == "__main__":
         # print(f"LRUCache Hit Rate: {idx}: {lru_cache.hit_rate():.2%}")
     print(f"LRUCache Hit Rate: {lru_cache.hit_rate():.2%}")
     
-    # dbl_cache_pq = DBLCachePQ(max_size=max_size)
-    # for idx, row in enumerate(tqdm(data)):
-    #     for key, value in row:
-    #         dbl_cache_pq.get(key)
-    #     for key, value in reversed(row):
-    #         dbl_cache_pq.put(key, value)
-    #     # print(f"TwoQCache Hit Rate: {idx + 1}: {dbl_cache_pq.hit_rate():.2%}")
-    #     # print(f"Step {idx} DBLCache A1: {len(dbl_cache_pq.A1in_data)}, Am: {len(dbl_cache_pq.Am_data)}, Hit: {dbl_cache_pq.hit_rate():.2%}")
-    # print(f"DBLCache Hit Rate: {dbl_cache_pq.hit_rate():.2%}")
+    dbl_cache_pq = DBLCachePQ(max_size=max_size)
+    for idx, row in enumerate(tqdm(data)):
+        for key, value in row:
+            dbl_cache_pq.get(key)
+        for key, value in reversed(row):
+            dbl_cache_pq.put(key, value)
+        # print(f"TwoQCache Hit Rate: {idx + 1}: {dbl_cache_pq.hit_rate():.2%}")
+        # print(f"Step {idx} DBLCache A1: {len(dbl_cache_pq.A1in_data)}, Am: {len(dbl_cache_pq.Am_data)}, Hit: {dbl_cache_pq.hit_rate():.2%}")
+    print(f"DBLCache Hit Rate: {dbl_cache_pq.hit_rate():.2%}")
 
     # two_q_cache = TwoQCache(max_size=max_size, k=k_value)
     # for idx, row in enumerate(data):

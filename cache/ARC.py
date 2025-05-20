@@ -1,10 +1,11 @@
 from collections import OrderedDict, deque
 import numpy as np
 from tqdm import tqdm
+import math
 
 class ARCCache:
     def __init__(self, max_size):
-        self.max_size = max_size  # 缓存容量 c
+        self.max_size = math.ceil(max_size)  # 缓存容量 c
         # T1 和 T2 存储实际数据
         self.T1 = OrderedDict()  # 最近访问但访问次数不多的项（短期 LRU）
         self.T2 = OrderedDict()  # 频繁访问的项（长期 LFU）
@@ -17,6 +18,7 @@ class ARCCache:
         # 命中和访问统计
         self.hit_count = 0
         self.access_count = 0
+        
 
     def get(self, key):
         """
@@ -112,6 +114,8 @@ class ARCCache:
         # 插入新 key 到 T1 的 MRU 位置
         self.T1[key] = value
         # self._prune_ghosts()
+        
+        # assert self._get_cache_size() <= self.max_size + 1
 
     def _replace(self, key):
         """
@@ -141,6 +145,9 @@ class ARCCache:
             contant_hash = self.B2.popleft()
             # print("B1 pop", contant_hash)
 
+    def _get_cache_size(self):
+        return len(self.T1) + len(self.T2)
+    
     def hit_rate(self):
         return self.hit_count / self.access_count if self.access_count > 0 else 0.0
 

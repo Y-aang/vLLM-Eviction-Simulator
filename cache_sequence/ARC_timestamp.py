@@ -2,10 +2,11 @@ from collections import OrderedDict, deque
 import numpy as np
 import heapq
 from tqdm import tqdm
+import math
 
 class ARCTimestampCache:
     def __init__(self, max_size):
-        self.max_size = max_size
+        self.max_size = math.ceil(max_size)
         self.T1_heap = []  # (timestamp, key)
         self.T1_data = {}  # key -> (timestamp, value)
         self.T2_heap = []  # (timestamp, key)
@@ -90,6 +91,10 @@ class ARCTimestampCache:
         self.T1_data[key] = (timestamp, value)
         heapq.heappush(self.T1_heap, (timestamp, key))
         self._prune_ghosts()
+        
+        assert self._get_cache_size() <= self.max_size
+        # if self._get_cache_size() > self.max_size + 1:
+        #     print("exceed cache size warning")
 
     def _replace(self, key):
         if self.T1_data and ((key in self.B2 and len(self.T1_data) == self.p) or (len(self.T1_data) > self.p)):
@@ -128,6 +133,9 @@ class ARCTimestampCache:
         while len(self.B2) > self.max_size:
             assert False
             self.B2.popleft()
+            
+    def _get_cache_size(self):
+        return len(self.T1_data) + len(self.T2_data)
 
     def hit_rate(self):
         return self.hit_count / self.access_count if self.access_count > 0 else 0.0

@@ -1,11 +1,12 @@
 from collections import OrderedDict, deque
 import numpy as np
+import math
 
 class DBLCache:
     def __init__(self, max_size):
         # The only constraint: total length of 2LRU smaller than max_size
         self.k = int(max_size * 0.5)  # size of A1in and A1out
-        self.max_size = max_size    # total size of 2Queue
+        self.max_size = math.ceil(max_size)    # total size of 2Queue
         self.A1in = OrderedDict()
         self.A1out = deque(maxlen=self.k)
         self.Am = OrderedDict()     # Long-term Main Queue
