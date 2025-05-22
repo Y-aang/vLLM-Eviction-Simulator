@@ -10,8 +10,8 @@ class ARCCache:
         self.T1 = OrderedDict()  # 最近访问但访问次数不多的项（短期 LRU）
         self.T2 = OrderedDict()  # 频繁访问的项（长期 LFU）
         # B1 和 B2 为 ghost 列表，只记录被淘汰项的 key
-        self.B1 = deque()
-        self.B2 = deque()
+        self.B1 = OrderedDict()
+        self.B2 = OrderedDict()
         # 动态平衡参数 p
         self.p = 0
         
@@ -68,7 +68,7 @@ class ARCCache:
             self.p = min(self.p + delta, self.max_size)
             if len(self.T1) + len(self.T2) >= self.max_size:
                 self._replace(key)
-            self.B1.remove(key)
+            del self.B1[key]
             # if len(self.T1) + len(self.T2) >= self.max_size:
             #     self._replace(key)
             self.T2[key] = value
@@ -80,7 +80,7 @@ class ARCCache:
             self.p = max(self.p - delta, 0)
             if len(self.T1) + len(self.T2) >= self.max_size:
                 self._replace(key)
-            self.B2.remove(key)
+            del self.B2[key]
             # if len(self.T1) + len(self.T2) >= self.max_size:
             #     self._replace(key)
             self.T2[key] = value
@@ -99,7 +99,7 @@ class ARCCache:
         if L1_size == self.max_size:
             if len(self.T1) < self.max_size:
                 if self.B1:
-                    poped_content_hash = self.B1.popleft()  # 删除 B1 的 LRU
+                    poped_content_hash = self.B1.popitem(last=False)[0]  # 删除 B1 的 LRU
                     # print('B miss, popleft(), hash:', poped_content_hash, 'key', key)
                     self._replace(key)
             else:
@@ -109,7 +109,7 @@ class ARCCache:
             total_size = len(self.T1) + len(self.T2) + len(self.B1) + len(self.B2)
             if total_size >= self.max_size:
                 if total_size == 2 * self.max_size and self.B2:
-                    self.B2.popleft()  # 删除 B2 的 LRU
+                    self.B2.popitem(last=False)[0]  # 删除 B2 的 LRU
                 self._replace(key)
         # 插入新 key 到 T1 的 MRU 位置
         self.T1[key] = value
@@ -128,21 +128,21 @@ class ARCCache:
         if self.T1 and ((key in self.B2 and len(self.T1) == self.p) or (len(self.T1) > self.p)):
             # assert (key in self.B2 and len(self.T1) == self.p) == False
             old_key, _ = self.T1.popitem(last=False)
-            self.B1.append(old_key)
+            self.B1[old_key] = None
         elif self.T2:
             # print('remove T2')
             old_key, _ = self.T2.popitem(last=False)
-            self.B2.append(old_key)
+            self.B2[old_key] = None
 
     def _prune_ghosts(self):
         """ 保证 ghost 列表 B1 和 B2 的大小不超过 max_size """
         while len(self.B1) > self.max_size:
             assert False
-            contant_hash = self.B1.popleft()
+            contant_hash = self.B1.popitem(last=False)[0]
             # print("B1 pop", contant_hash)
         while len(self.B2) > self.max_size:
             assert False
-            contant_hash = self.B2.popleft()
+            contant_hash = self.B2.popitem(last=False)[0]
             # print("B1 pop", contant_hash)
 
     def _get_cache_size(self):

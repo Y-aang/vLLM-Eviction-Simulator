@@ -1,2002 +1,0 @@
-  0%|          | 0/1000 [00:00<?, ?it/s]  2%|▏         | 19/1000 [00:00<00:05, 169.93it/s]  4%|▎         | 36/1000 [00:00<00:12, 77.61it/s]   5%|▍         | 47/1000 [00:00<00:19, 49.79it/s]  5%|▌         | 54/1000 [00:01<00:21, 43.12it/s]  6%|▋         | 64/1000 [00:01<00:18, 50.94it/s]  7%|▋         | 71/1000 [00:01<00:19, 48.13it/s]  8%|▊         | 77/1000 [00:01<00:23, 38.60it/s]  8%|▊         | 82/1000 [00:01<00:22, 40.18it/s]  9%|▊         | 87/1000 [00:01<00:22, 40.62it/s]  9%|▉         | 92/1000 [00:02<00:34, 26.28it/s] 10%|▉         | 96/1000 [00:02<00:41, 21.87it/s]Step 1 ARCSeqCacheEasy T1: 481, T2: 0, B1: 0, B2: 0, p: 0
-Hit Rate: 0.00%
-Step 2 ARCSeqCacheEasy T1: 1627, T2: 0, B1: 0, B2: 0, p: 0
-Hit Rate: 0.00%
-Step 3 ARCSeqCacheEasy T1: 2700, T2: 0, B1: 0, B2: 0, p: 0
-Hit Rate: 0.00%
-Step 4 ARCSeqCacheEasy T1: 2967, T2: 0, B1: 0, B2: 0, p: 0
-Hit Rate: 0.00%
-Step 5 ARCSeqCacheEasy T1: 3484, T2: 0, B1: 0, B2: 0, p: 0
-Hit Rate: 0.00%
-Step 6 ARCSeqCacheEasy T1: 2967, T2: 517, B1: 0, B2: 0, p: 0
-Hit Rate: 12.92%
-Step 7 ARCSeqCacheEasy T1: 2967, T2: 517, B1: 0, B2: 0, p: 0
-Hit Rate: 22.89%
-Step 8 ARCSeqCacheEasy T1: 3609, T2: 517, B1: 0, B2: 0, p: 0
-Hit Rate: 20.04%
-Step 9 ARCSeqCacheEasy T1: 4548, T2: 517, B1: 0, B2: 0, p: 0
-Hit Rate: 16.95%
-Step 10 ARCSeqCacheEasy T1: 5021, T2: 517, B1: 0, B2: 0, p: 0
-Hit Rate: 15.73%
-Step 11 ARCSeqCacheEasy T1: 5021, T2: 517, B1: 0, B2: 0, p: 0
-Hit Rate: 21.88%
-Step 12 ARCSeqCacheEasy T1: 5483, T2: 517, B1: 770, B2: 0, p: 0
-Hit Rate: 18.64%
-Step 13 ARCSeqCacheEasy T1: 5483, T2: 517, B1: 1226, B2: 0, p: 0
-Hit Rate: 17.67%
-Step 14 ARCSeqCacheEasy T1: 5483, T2: 517, B1: 2434, B2: 0, p: 0
-Hit Rate: 15.53%
-Step 15 ARCSeqCacheEasy T1: 4275, T2: 1725, B1: 2434, B2: 0, p: 0
-Hit Rate: 24.65%
-Step 16 ARCSeqCacheEasy T1: 4275, T2: 1725, B1: 2434, B2: 0, p: 0
-Hit Rate: 31.99%
-Step 17 ARCSeqCacheEasy T1: 4275, T2: 1725, B1: 2842, B2: 0, p: 0
-Hit Rate: 30.97%
-Step 18 ARCSeqCacheEasy T1: 4275, T2: 1725, B1: 3187, B2: 0, p: 0
-Hit Rate: 30.16%
-Step 19 ARCSeqCacheEasy T1: 4275, T2: 1725, B1: 4433, B2: 0, p: 0
-Hit Rate: 27.55%
-Step 20 ARCSeqCacheEasy T1: 3867, T2: 2133, B1: 4433, B2: 0, p: 0
-Hit Rate: 29.54%
-Step 21 ARCSeqCacheEasy T1: 3867, T2: 2133, B1: 4708, B2: 0, p: 0
-Hit Rate: 29.01%
-Step 22 ARCSeqCacheEasy T1: 3867, T2: 2133, B1: 4708, B2: 0, p: 0
-Hit Rate: 31.36%
-Step 23 ARCSeqCacheEasy T1: 3867, T2: 2133, B1: 4708, B2: 0, p: 0
-Hit Rate: 33.11%
-Step 24 ARCSeqCacheEasy T1: 3386, T2: 2614, B1: 4708, B2: 0, p: 481
-Hit Rate: 32.14%
-Step 25 ARCSeqCacheEasy T1: 3386, T2: 2614, B1: 5322, B2: 0, p: 481
-Hit Rate: 30.99%
-Step 26 ARCSeqCacheEasy T1: 3386, T2: 2614, B1: 5972, B2: 0, p: 481
-Hit Rate: 29.85%
-Step 27 ARCSeqCacheEasy T1: 3386, T2: 2614, B1: 5972, B2: 0, p: 481
-Hit Rate: 34.32%
-Step 28 ARCSeqCacheEasy T1: 3041, T2: 2959, B1: 5972, B2: 0, p: 481
-Hit Rate: 35.50%
-Step 29 ARCSeqCacheEasy T1: 2774, T2: 3226, B1: 5972, B2: 0, p: 748
-Hit Rate: 35.01%
-Step 30 ARCSeqCacheEasy T1: 2774, T2: 3226, B1: 5972, B2: 0, p: 748
-Hit Rate: 36.68%
-Step 31 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 5972, B2: 0, p: 1687
-Hit Rate: 35.05%
-Step 32 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 5972, B2: 0, p: 1687
-Hit Rate: 36.61%
-Step 33 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 5972, B2: 0, p: 1687
-Hit Rate: 38.09%
-Step 34 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 6000, B2: 0, p: 1687
-Hit Rate: 36.91%
-Step 35 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 6000, B2: 0, p: 1687
-Hit Rate: 35.63%
-Step 36 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 6000, B2: 0, p: 1687
-Hit Rate: 34.54%
-Step 37 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 6000, B2: 0, p: 1687
-Hit Rate: 35.62%
-Step 38 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 6000, B2: 0, p: 1687
-Hit Rate: 36.94%
-Step 39 ARCSeqCacheEasy T1: 1835, T2: 4165, B1: 6000, B2: 0, p: 1687
-Hit Rate: 36.58%
-Step 40 ARCSeqCacheEasy T1: 1761, T2: 4239, B1: 4828, B2: 1172, p: 2933
-Hit Rate: 34.88%
-Step 41 ARCSeqCacheEasy T1: 1761, T2: 4239, B1: 4828, B2: 1172, p: 2933
-Hit Rate: 36.11%
-Step 42 ARCSeqCacheEasy T1: 2558, T2: 3442, B1: 4828, B2: 1969, p: 2933
-Hit Rate: 35.09%
-Step 43 ARCSeqCacheEasy T1: 2558, T2: 3442, B1: 4828, B2: 1969, p: 2933
-Hit Rate: 36.26%
-Step 44 ARCSeqCacheEasy T1: 2934, T2: 3066, B1: 5177, B2: 2345, p: 2933
-Hit Rate: 35.36%
-Step 45 ARCSeqCacheEasy T1: 1726, T2: 4274, B1: 6385, B2: 1137, p: 0
-Hit Rate: 33.96%
-Step 46 ARCSeqCacheEasy T1: 1726, T2: 4274, B1: 6000, B2: 1137, p: 0
-Hit Rate: 33.70%
-Step 47 ARCSeqCacheEasy T1: 1726, T2: 4274, B1: 6000, B2: 1137, p: 0
-Hit Rate: 34.57%
-Step 48 ARCSeqCacheEasy T1: 1381, T2: 4619, B1: 6345, B2: 792, p: 0
-Hit Rate: 34.19%
-Step 49 ARCSeqCacheEasy T1: 1381, T2: 4619, B1: 6000, B2: 792, p: 0
-Hit Rate: 33.71%
-Step 50 ARCSeqCacheEasy T1: 1381, T2: 4619, B1: 6000, B2: 792, p: 0
-Hit Rate: 36.12%
-Step 51 ARCSeqCacheEasy T1: 1381, T2: 4619, B1: 6000, B2: 792, p: 0
-Hit Rate: 35.77%
-Step 52 ARCSeqCacheEasy T1: 1381, T2: 4619, B1: 6000, B2: 792, p: 0
-Hit Rate: 35.41%
-Step 53 ARCSeqCacheEasy T1: 1381, T2: 4619, B1: 6000, B2: 792, p: 0
-Hit Rate: 35.14%
-Step 54 ARCSeqCacheEasy T1: 1381, T2: 4619, B1: 6000, B2: 792, p: 0
-Hit Rate: 34.43%
-Step 55 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6267, B2: 525, p: 0
-Hit Rate: 34.17%
-Step 56 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 33.89%
-Step 57 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 34.85%
-Step 58 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 36.97%
-Step 59 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 37.84%
-Step 60 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 38.51%
-Step 61 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 38.28%
-Step 62 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 38.93%
-Step 63 ARCSeqCacheEasy T1: 1114, T2: 4886, B1: 6000, B2: 525, p: 0
-Hit Rate: 38.56%
-Step 64 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6481, B2: 44, p: 0
-Hit Rate: 38.09%
-Step 65 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6481, B2: 44, p: 0
-Hit Rate: 38.72%
-Step 66 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 38.58%
-Step 67 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 39.37%
-Step 68 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 38.96%
-Step 69 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 39.72%
-Step 70 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 38.91%
-Step 71 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 37.66%
-Step 72 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 39.34%
-Step 73 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 40.03%
-Step 74 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 39.44%
-Step 75 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 39.04%
-Step 76 ARCSeqCacheEasy T1: 633, T2: 5367, B1: 6000, B2: 44, p: 0
-Hit Rate: 38.16%
-Step 77 ARCSeqCacheEasy T1: 317, T2: 5683, B1: 4915, B2: 1129, p: 1401
-Hit Rate: 37.07%
-Step 78 ARCSeqCacheEasy T1: 317, T2: 5683, B1: 4915, B2: 1129, p: 1401
-Hit Rate: 37.73%
-Step 79 ARCSeqCacheEasy T1: 317, T2: 5683, B1: 4915, B2: 1129, p: 1401
-Hit Rate: 38.32%
-Step 80 ARCSeqCacheEasy T1: 317, T2: 5683, B1: 4915, B2: 1129, p: 1401
-Hit Rate: 38.95%
-Step 81 ARCSeqCacheEasy T1: 1100, T2: 4900, B1: 4915, B2: 1912, p: 1401
-Hit Rate: 38.36%
-Step 82 ARCSeqCacheEasy T1: 1402, T2: 4598, B1: 5050, B2: 2214, p: 1401
-Hit Rate: 38.04%
-Step 83 ARCSeqCacheEasy T1: 1402, T2: 4598, B1: 5050, B2: 2214, p: 1401
-Hit Rate: 38.52%
-Step 84 ARCSeqCacheEasy T1: 1402, T2: 4598, B1: 5050, B2: 2214, p: 1401
-Hit Rate: 39.12%
-Step 85 ARCSeqCacheEasy T1: 1402, T2: 4598, B1: 5050, B2: 2214, p: 1401
-Hit Rate: 39.59%
-Step 86 ARCSeqCacheEasy T1: 1402, T2: 4598, B1: 5050, B2: 2214, p: 1401
-Hit Rate: 40.05%
-Step 87 ARCSeqCacheEasy T1: 1220, T2: 4780, B1: 4159, B2: 3105, p: 2292
-Hit Rate: 39.60%
-Step 88 ARCSeqCacheEasy T1: 2293, T2: 3707, B1: 4246, B2: 4178, p: 2292
-Hit Rate: 38.77%
-Step 89 ARCSeqCacheEasy T1: 2293, T2: 3707, B1: 4715, B2: 4178, p: 2292
-Hit Rate: 38.45%
-Step 90 ARCSeqCacheEasy T1: 2293, T2: 3707, B1: 5490, B2: 4178, p: 2292
-Hit Rate: 37.93%
-Step 91 ARCSeqCacheEasy T1: 2293, T2: 3707, B1: 5490, B2: 4178, p: 2292
-Hit Rate: 38.49%
-Step 92 ARCSeqCacheEasy T1: 2293, T2: 3707, B1: 6000, B2: 4178, p: 2292
-Hit Rate: 37.94%
-Step 93 ARCSeqCacheEasy T1: 2293, T2: 3707, B1: 6000, B2: 4178, p: 2292
-Hit Rate: 37.51%
-Step 94 ARCSeqCacheEasy T1: 2293, T2: 3707, B1: 6000, B2: 4178, p: 2292
-Hit Rate: 37.20%
-Step 95 ARCSeqCacheEasy T1: 2120, T2: 3880, B1: 6173, B2: 4005, p: 2119
-Hit Rate: 38.36%
-Step 96 ARCSeqCacheEasy T1: 2120, T2: 3880, B1: 6000, B2: 4005, p: 2119
-Hit Rate: 37.86%
- 10%|▉         | 99/1000 [00:02<00:45, 19.79it/s] 10%|█         | 102/1000 [00:02<00:43, 20.52it/s] 10%|█         | 105/1000 [00:03<00:51, 17.22it/s] 11%|█         | 108/1000 [00:03<00:59, 14.97it/s] 11%|█▏        | 113/1000 [00:03<00:43, 20.19it/s] 12%|█▏        | 116/1000 [00:03<00:51, 17.29it/s] 12%|█▏        | 119/1000 [00:03<00:49, 17.79it/s] 12%|█▏        | 122/1000 [00:04<00:51, 17.18it/s] 13%|█▎        | 126/1000 [00:04<00:45, 19.08it/s] 13%|█▎        | 129/1000 [00:04<01:00, 14.30it/s] 14%|█▎        | 135/1000 [00:04<00:41, 20.65it/s] 14%|█▍        | 138/1000 [00:04<00:39, 21.72it/s] 15%|█▍        | 147/1000 [00:04<00:26, 31.98it/s] 15%|█▌        | 151/1000 [00:05<00:25, 33.43it/s] 16%|█▌        | 155/1000 [00:05<00:26, 32.02it/s] 16%|█▌        | 159/1000 [00:05<00:25, 32.39it/s] 16%|█▋        | 163/1000 [00:05<00:31, 26.87it/s] 17%|█▋        | 166/1000 [00:05<00:36, 22.64it/s] 17%|█▋        | 173/1000 [00:05<00:28, 29.41it/s] 18%|█▊        | 177/1000 [00:06<00:33, 24.67it/s] 18%|█▊        | 180/1000 [00:06<00:33, 24.47it/s] 18%|█▊        | 183/1000 [00:06<00:36, 22.57it/s] 19%|█▊        | 187/1000 [00:06<00:40, 19.84it/s] 19%|█▉        | 192/1000 [00:06<00:40, 20.17it/s]Step 97 ARCSeqCacheEasy T1: 1775, T2: 4225, B1: 6345, B2: 3660, p: 1774
-Hit Rate: 37.65%
-Step 98 ARCSeqCacheEasy T1: 529, T2: 5471, B1: 7591, B2: 2414, p: 0
-Hit Rate: 36.91%
-Step 99 ARCSeqCacheEasy T1: 529, T2: 5471, B1: 7591, B2: 2414, p: 0
-Hit Rate: 37.42%
-Step 100 ARCSeqCacheEasy T1: 529, T2: 5471, B1: 7591, B2: 2414, p: 0
-Hit Rate: 37.92%
-Step 101 ARCSeqCacheEasy T1: 529, T2: 5471, B1: 7591, B2: 2414, p: 0
-Hit Rate: 38.42%
-Step 102 ARCSeqCacheEasy T1: 265, T2: 5735, B1: 6695, B2: 3310, p: 1160
-Hit Rate: 37.74%
-Step 103 ARCSeqCacheEasy T1: 265, T2: 5735, B1: 6695, B2: 3310, p: 344
-Hit Rate: 37.51%
-Step 104 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6163, B2: 3842, p: 876
-Hit Rate: 37.46%
-Step 105 ARCSeqCacheEasy T1: 508, T2: 5492, B1: 6000, B2: 4350, p: 876
-Hit Rate: 37.18%
-Step 106 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6508, B2: 3842, p: 0
-Hit Rate: 36.53%
-Step 107 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 36.41%
-Step 108 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 36.03%
-Step 109 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 37.12%
-Step 110 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 37.57%
-Step 111 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 37.93%
-Step 112 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 38.37%
-Step 113 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 37.95%
-Step 114 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 37.57%
-Step 115 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 38.53%
-Step 116 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 37.91%
-Step 117 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 37.70%
-Step 118 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 38.66%
-Step 119 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 38.27%
-Step 120 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 3843, p: 0
-Hit Rate: 38.20%
-Step 121 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5261, B2: 4582, p: 739
-Hit Rate: 37.84%
-Step 122 ARCSeqCacheEasy T1: 704, T2: 5296, B1: 5261, B2: 5285, p: 739
-Hit Rate: 37.51%
-Step 123 ARCSeqCacheEasy T1: 704, T2: 5296, B1: 5261, B2: 5285, p: 739
-Hit Rate: 37.83%
-Step 124 ARCSeqCacheEasy T1: 704, T2: 5296, B1: 5261, B2: 5285, p: 739
-Hit Rate: 38.22%
-Step 125 ARCSeqCacheEasy T1: 704, T2: 5296, B1: 5261, B2: 5285, p: 739
-Hit Rate: 39.13%
-Step 126 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5965, B2: 4581, p: 0
-Hit Rate: 39.10%
-Step 127 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 38.56%
-Step 128 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 37.94%
-Step 129 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 38.31%
-Step 130 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 38.79%
-Step 131 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 39.64%
-Step 132 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 40.45%
-Step 133 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 40.79%
-Step 134 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 40.57%
-Step 135 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 40.38%
-Step 136 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 40.65%
-Step 137 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 40.50%
-Step 138 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 40.29%
-Step 139 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 40.60%
-Step 140 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 40.50%
-Step 141 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 40.34%
-Step 142 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 41.10%
-Step 143 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 41.59%
-Step 144 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 41.84%
-Step 145 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 42.08%
-Step 146 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 42.39%
-Step 147 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 41.99%
-Step 148 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 42.45%
-Step 149 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 42.75%
-Step 150 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 42.98%
-Step 151 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 42.68%
-Step 152 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.35%
-Step 153 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.64%
-Step 154 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.31%
-Step 155 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.22%
-Step 156 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.88%
-Step 157 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.80%
-Step 158 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.52%
-Step 159 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.16%
-Step 160 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 43.72%
-Step 161 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 43.97%
-Step 162 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 43.51%
-Step 163 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 44.10%
-Step 164 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.04%
-Step 165 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.30%
-Step 166 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 43.81%
-Step 167 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.01%
-Step 168 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.61%
-Step 169 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.86%
-Step 170 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 44.75%
-Step 171 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.53%
-Step 172 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.78%
-Step 173 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 44.65%
-Step 174 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4581, p: 0
-Hit Rate: 45.22%
-Step 175 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.72%
-Step 176 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.96%
-Step 177 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.82%
-Step 178 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.74%
-Step 179 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.49%
-Step 180 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.73%
-Step 181 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.95%
-Step 182 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.18%
-Step 183 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.75%
-Step 184 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.60%
-Step 185 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.14%
-Step 186 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.05%
-Step 187 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.63%
-Step 188 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.47%
-Step 189 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.42%
-Step 190 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.95%
-Step 191 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.17%
-Step 192 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.83%
-Step 193 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 44.60%
- 20%|█▉        | 197/1000 [00:07<00:36, 21.80it/s] 20%|██        | 200/1000 [00:07<00:53, 14.91it/s] 20%|██        | 202/1000 [00:07<00:59, 13.35it/s] 20%|██        | 205/1000 [00:07<00:56, 14.16it/s] 21%|██        | 212/1000 [00:08<00:36, 21.86it/s] 22%|██▏       | 215/1000 [00:08<00:47, 16.44it/s] 22%|██▏       | 218/1000 [00:08<00:44, 17.74it/s] 22%|██▏       | 221/1000 [00:08<00:52, 14.71it/s] 22%|██▏       | 224/1000 [00:09<00:50, 15.37it/s] 23%|██▎       | 229/1000 [00:09<00:44, 17.46it/s] 23%|██▎       | 231/1000 [00:09<00:55, 13.74it/s] 23%|██▎       | 233/1000 [00:09<01:00, 12.61it/s] 24%|██▍       | 239/1000 [00:09<00:37, 20.04it/s] 24%|██▍       | 242/1000 [00:09<00:39, 19.23it/s] 24%|██▍       | 245/1000 [00:10<00:37, 20.00it/s] 25%|██▍       | 248/1000 [00:10<00:52, 14.37it/s] 25%|██▌       | 250/1000 [00:10<00:54, 13.76it/s] 25%|██▌       | 253/1000 [00:10<00:46, 16.18it/s] 26%|██▌       | 258/1000 [00:10<00:35, 20.69it/s] 26%|██▌       | 261/1000 [00:11<00:33, 21.98it/s] 26%|██▋       | 264/1000 [00:11<00:32, 22.32it/s] 27%|██▋       | 267/1000 [00:11<00:41, 17.86it/s] 27%|██▋       | 270/1000 [00:11<00:38, 19.07it/s] 27%|██▋       | 273/1000 [00:11<00:42, 17.05it/s] 28%|██▊       | 276/1000 [00:11<00:42, 16.84it/s] 28%|██▊       | 280/1000 [00:12<00:45, 15.98it/s] 28%|██▊       | 282/1000 [00:12<00:45, 15.64it/s] 28%|██▊       | 285/1000 [00:12<00:39, 18.17it/s]Step 194 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.09%
-Step 195 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.29%
-Step 196 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.48%
-Step 197 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4582, p: 0
-Hit Rate: 45.27%
-Step 198 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5017, B2: 5565, p: 983
-Hit Rate: 44.94%
-Step 199 ARCSeqCacheEasy T1: 470, T2: 5530, B1: 5017, B2: 6000, p: 983
-Hit Rate: 44.78%
-Step 200 ARCSeqCacheEasy T1: 984, T2: 5016, B1: 5687, B2: 6000, p: 983
-Hit Rate: 44.39%
-Step 201 ARCSeqCacheEasy T1: 984, T2: 5016, B1: 6000, B2: 6000, p: 983
-Hit Rate: 43.96%
-Step 202 ARCSeqCacheEasy T1: 984, T2: 5016, B1: 6000, B2: 6000, p: 983
-Hit Rate: 44.17%
-Step 203 ARCSeqCacheEasy T1: 984, T2: 5016, B1: 6000, B2: 6000, p: 983
-Hit Rate: 44.38%
-Step 204 ARCSeqCacheEasy T1: 984, T2: 5016, B1: 6000, B2: 6000, p: 983
-Hit Rate: 44.77%
-Step 205 ARCSeqCacheEasy T1: 45, T2: 5955, B1: 6939, B2: 5061, p: 44
-Hit Rate: 44.47%
-Step 206 ARCSeqCacheEasy T1: 45, T2: 5955, B1: 6939, B2: 5061, p: 44
-Hit Rate: 44.68%
-Step 207 ARCSeqCacheEasy T1: 45, T2: 5955, B1: 6939, B2: 5061, p: 44
-Hit Rate: 44.88%
-Step 208 ARCSeqCacheEasy T1: 45, T2: 5955, B1: 6703, B2: 5297, p: 280
-Hit Rate: 44.81%
-Step 209 ARCSeqCacheEasy T1: 45, T2: 5955, B1: 6703, B2: 5297, p: 280
-Hit Rate: 45.01%
-Step 210 ARCSeqCacheEasy T1: 45, T2: 5955, B1: 6703, B2: 5297, p: 280
-Hit Rate: 45.21%
-Step 211 ARCSeqCacheEasy T1: 45, T2: 5955, B1: 6250, B2: 5750, p: 733
-Hit Rate: 45.06%
-Step 212 ARCSeqCacheEasy T1: 397, T2: 5603, B1: 6000, B2: 6000, p: 733
-Hit Rate: 44.95%
-Step 213 ARCSeqCacheEasy T1: 662, T2: 5338, B1: 6000, B2: 6000, p: 733
-Hit Rate: 44.87%
-Step 214 ARCSeqCacheEasy T1: 94, T2: 5906, B1: 6568, B2: 5432, p: 94
-Hit Rate: 44.89%
-Step 215 ARCSeqCacheEasy T1: 95, T2: 5905, B1: 6000, B2: 5433, p: 94
-Hit Rate: 44.63%
-Step 216 ARCSeqCacheEasy T1: 95, T2: 5905, B1: 6000, B2: 5433, p: 94
-Hit Rate: 45.09%
-Step 217 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6095, B2: 5338, p: 0
-Hit Rate: 44.96%
-Step 218 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5339, p: 0
-Hit Rate: 44.85%
-Step 219 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 4684, B2: 6655, p: 1316
-Hit Rate: 44.45%
-Step 220 ARCSeqCacheEasy T1: 542, T2: 5458, B1: 4684, B2: 6000, p: 1316
-Hit Rate: 44.29%
-Step 221 ARCSeqCacheEasy T1: 542, T2: 5458, B1: 4419, B2: 6265, p: 1581
-Hit Rate: 44.21%
-Step 222 ARCSeqCacheEasy T1: 1034, T2: 4966, B1: 4419, B2: 6000, p: 1581
-Hit Rate: 44.07%
-Step 223 ARCSeqCacheEasy T1: 1034, T2: 4966, B1: 4419, B2: 6000, p: 1581
-Hit Rate: 44.26%
-Step 224 ARCSeqCacheEasy T1: 1034, T2: 4966, B1: 4419, B2: 6000, p: 1100
-Hit Rate: 44.12%
-Step 225 ARCSeqCacheEasy T1: 1034, T2: 4966, B1: 4419, B2: 6000, p: 1100
-Hit Rate: 44.56%
-Step 226 ARCSeqCacheEasy T1: 1034, T2: 4966, B1: 4419, B2: 6000, p: 1100
-Hit Rate: 45.00%
-Step 227 ARCSeqCacheEasy T1: 1101, T2: 4899, B1: 4622, B2: 6000, p: 1100
-Hit Rate: 44.92%
-Step 228 ARCSeqCacheEasy T1: 1101, T2: 4899, B1: 4850, B2: 6000, p: 1100
-Hit Rate: 44.85%
-Step 229 ARCSeqCacheEasy T1: 1101, T2: 4899, B1: 5757, B2: 6000, p: 1100
-Hit Rate: 44.59%
-Step 230 ARCSeqCacheEasy T1: 1101, T2: 4899, B1: 6000, B2: 6000, p: 1100
-Hit Rate: 44.46%
-Step 231 ARCSeqCacheEasy T1: 1101, T2: 4899, B1: 6000, B2: 6000, p: 1100
-Hit Rate: 44.11%
-Step 232 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6797, B2: 5203, p: 303
-Hit Rate: 43.88%
-Step 233 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 43.69%
-Step 234 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 43.98%
-Step 235 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.40%
-Step 236 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.22%
-Step 237 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.36%
-Step 238 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.54%
-Step 239 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.99%
-Step 240 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 45.16%
-Step 241 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 45.09%
-Step 242 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.85%
-Step 243 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.61%
-Step 244 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.77%
-Step 245 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.95%
-Step 246 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 6000, B2: 5203, p: 303
-Hit Rate: 44.79%
-Step 247 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.46%
-Step 248 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.25%
-Step 249 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.06%
-Step 250 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 43.95%
-Step 251 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.08%
-Step 252 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.02%
-Step 253 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 43.88%
-Step 254 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.02%
-Step 255 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.18%
-Step 256 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.33%
-Step 257 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.16%
-Step 258 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.07%
-Step 259 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 43.95%
-Step 260 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.11%
-Step 261 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.04%
-Step 262 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 43.88%
-Step 263 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 44.05%
-Step 264 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4899, p: 0
-Hit Rate: 43.96%
-Step 265 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 43.86%
-Step 266 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 43.72%
-Step 267 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4900, p: 0
-Hit Rate: 43.53%
-Step 268 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5234, B2: 5666, p: 766
-Hit Rate: 43.34%
-Step 269 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5234, B2: 5666, p: 766
-Hit Rate: 43.50%
-Step 270 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5234, B2: 5666, p: 766
-Hit Rate: 43.62%
-Step 271 ARCSeqCacheEasy T1: 737, T2: 5263, B1: 5234, B2: 6000, p: 766
-Hit Rate: 43.45%
-Step 272 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5234, B2: 6000, p: 766
-Hit Rate: 43.68%
-Step 273 ARCSeqCacheEasy T1: 642, T2: 5358, B1: 5234, B2: 6000, p: 766
-Hit Rate: 43.52%
-Step 274 ARCSeqCacheEasy T1: 767, T2: 5233, B1: 5285, B2: 6000, p: 766
-Hit Rate: 43.48%
-Step 275 ARCSeqCacheEasy T1: 767, T2: 5233, B1: 5285, B2: 6000, p: 766
-Hit Rate: 43.59%
-Step 276 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6052, B2: 5233, p: 0
-Hit Rate: 43.40%
-Step 277 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.32%
-Step 278 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5233, p: 0
-Hit Rate: 43.26%
-Step 279 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5233, p: 0
-Hit Rate: 43.50%
-Step 280 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.20%
-Step 281 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 42.99%
-Step 282 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.14%
-Step 283 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.29%
-Step 284 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.44%
-Step 285 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.28%
-Step 286 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.44%
-Step 287 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.30%
-Step 288 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
- 29%|██▉       | 288/1000 [00:12<00:35, 20.05it/s] 29%|██▉       | 293/1000 [00:12<00:30, 23.44it/s] 30%|██▉       | 297/1000 [00:12<00:32, 21.46it/s] 30%|███       | 300/1000 [00:13<00:39, 17.93it/s] 30%|███       | 304/1000 [00:13<00:32, 21.52it/s] 31%|███       | 307/1000 [00:13<00:43, 15.89it/s] 31%|███       | 309/1000 [00:13<00:48, 14.30it/s] 31%|███       | 311/1000 [00:14<00:51, 13.29it/s] 32%|███▏      | 315/1000 [00:14<00:48, 14.18it/s] 32%|███▏      | 321/1000 [00:14<00:34, 19.88it/s] 32%|███▏      | 324/1000 [00:14<00:34, 19.77it/s] 33%|███▎      | 327/1000 [00:14<00:31, 21.16it/s] 33%|███▎      | 330/1000 [00:14<00:29, 22.40it/s] 33%|███▎      | 333/1000 [00:14<00:31, 21.05it/s] 34%|███▎      | 337/1000 [00:15<00:32, 20.32it/s] 34%|███▍      | 340/1000 [00:15<00:36, 18.30it/s] 34%|███▍      | 342/1000 [00:15<00:46, 14.28it/s] 35%|███▍      | 347/1000 [00:15<00:38, 16.89it/s] 35%|███▌      | 352/1000 [00:16<00:37, 17.46it/s] 36%|███▌      | 356/1000 [00:16<00:36, 17.88it/s] 36%|███▌      | 358/1000 [00:16<00:35, 18.02it/s] 36%|███▌      | 360/1000 [00:16<00:38, 16.82it/s] 36%|███▋      | 363/1000 [00:16<00:36, 17.63it/s] 36%|███▋      | 365/1000 [00:16<00:35, 17.72it/s] 37%|███▋      | 367/1000 [00:17<00:43, 14.59it/s] 37%|███▋      | 369/1000 [00:17<00:54, 11.49it/s] 38%|███▊      | 377/1000 [00:17<00:30, 20.70it/s] 38%|███▊      | 380/1000 [00:17<00:28, 22.09it/s] 38%|███▊      | 383/1000 [00:17<00:30, 20.25it/s]Hit Rate: 43.27%
-Step 289 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.39%
-Step 290 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.33%
-Step 291 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.48%
-Step 292 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.63%
-Step 293 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.43%
-Step 294 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.57%
-Step 295 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.72%
-Step 296 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.82%
-Step 297 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.51%
-Step 298 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5233, p: 0
-Hit Rate: 43.24%
-Step 299 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.14%
-Step 300 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.29%
-Step 301 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5234, p: 0
-Hit Rate: 43.44%
-Step 302 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5859, B2: 5375, p: 141
-Hit Rate: 43.41%
-Step 303 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5859, B2: 5375, p: 141
-Hit Rate: 43.45%
-Step 304 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5860, B2: 5374, p: 0
-Hit Rate: 43.20%
-Step 305 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 43.06%
-Step 306 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.74%
-Step 307 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.84%
-Step 308 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.96%
-Step 309 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.69%
-Step 310 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 43.03%
-Step 311 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.77%
-Step 312 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.91%
-Step 313 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 43.05%
-Step 314 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.98%
-Step 315 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.72%
-Step 316 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.65%
-Step 317 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.60%
-Step 318 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.74%
-Step 319 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.88%
-Step 320 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 43.21%
-Step 321 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5374, p: 0
-Hit Rate: 43.12%
-Step 322 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.95%
-Step 323 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5374, p: 0
-Hit Rate: 42.90%
-Step 324 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5374, p: 0
-Hit Rate: 43.01%
-Step 325 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.89%
-Step 326 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.86%
-Step 327 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.98%
-Step 328 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5375, p: 0
-Hit Rate: 42.93%
-Step 329 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5205, B2: 6170, p: 795
-Hit Rate: 42.89%
-Step 330 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5205, B2: 6170, p: 795
-Hit Rate: 43.21%
-Step 331 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5205, B2: 6170, p: 599
-Hit Rate: 43.24%
-Step 332 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 5331, B2: 6000, p: 599
-Hit Rate: 43.10%
-Step 333 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 5331, B2: 6000, p: 599
-Hit Rate: 43.23%
-Step 334 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 5331, B2: 6000, p: 599
-Hit Rate: 43.37%
-Step 335 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 5331, B2: 6000, p: 599
-Hit Rate: 43.50%
-Step 336 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 5331, B2: 6000, p: 599
-Hit Rate: 43.63%
-Step 337 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 6000, B2: 6000, p: 599
-Hit Rate: 43.39%
-Step 338 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 6000, B2: 6000, p: 599
-Hit Rate: 43.29%
-Step 339 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 6000, B2: 6000, p: 599
-Hit Rate: 43.14%
-Step 340 ARCSeqCacheEasy T1: 600, T2: 5400, B1: 6000, B2: 6000, p: 599
-Hit Rate: 43.27%
-Step 341 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6600, B2: 5400, p: 0
-Hit Rate: 43.12%
-Step 342 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5825, B2: 6175, p: 775
-Hit Rate: 42.97%
-Step 343 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5825, B2: 6175, p: 775
-Hit Rate: 43.10%
-Step 344 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5825, B2: 6175, p: 775
-Hit Rate: 43.41%
-Step 345 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5597, B2: 6403, p: 1003
-Hit Rate: 43.37%
-Step 346 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5322, B2: 6678, p: 1278
-Hit Rate: 43.32%
-Step 347 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5322, B2: 6678, p: 118
-Hit Rate: 43.10%
-Step 348 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5322, B2: 6678, p: 118
-Hit Rate: 43.23%
-Step 349 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5322, B2: 6678, p: 118
-Hit Rate: 43.35%
-Step 350 ARCSeqCacheEasy T1: 119, T2: 5881, B1: 5640, B2: 6000, p: 118
-Hit Rate: 43.26%
-Step 351 ARCSeqCacheEasy T1: 119, T2: 5881, B1: 5640, B2: 6000, p: 118
-Hit Rate: 43.46%
-Step 352 ARCSeqCacheEasy T1: 119, T2: 5881, B1: 4381, B2: 7259, p: 1377
-Hit Rate: 43.22%
-Step 353 ARCSeqCacheEasy T1: 119, T2: 5881, B1: 4381, B2: 7259, p: 1141
-Hit Rate: 43.18%
-Step 354 ARCSeqCacheEasy T1: 119, T2: 5881, B1: 4381, B2: 7259, p: 1141
-Hit Rate: 43.31%
-Step 355 ARCSeqCacheEasy T1: 119, T2: 5881, B1: 4381, B2: 7259, p: 1141
-Hit Rate: 43.43%
-Step 356 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4500, B2: 7140, p: 0
-Hit Rate: 43.19%
-Step 357 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4500, B2: 7140, p: 0
-Hit Rate: 43.31%
-Step 358 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5179, B2: 6000, p: 0
-Hit Rate: 43.19%
-Step 359 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5433, B2: 6000, p: 0
-Hit Rate: 43.14%
-Step 360 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 4753, B2: 6680, p: 680
-Hit Rate: 43.02%
-Step 361 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 4753, B2: 6680, p: 452
-Hit Rate: 42.98%
-Step 362 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 4753, B2: 6680, p: 452
-Hit Rate: 43.29%
-Step 363 ARCSeqCacheEasy T1: 453, T2: 5547, B1: 4915, B2: 6000, p: 452
-Hit Rate: 43.18%
-Step 364 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5368, B2: 5547, p: 0
-Hit Rate: 43.10%
-Step 365 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5708, B2: 5548, p: 0
-Hit Rate: 43.04%
-Step 366 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5708, B2: 5548, p: 0
-Hit Rate: 43.09%
-Step 367 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.85%
-Step 368 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.67%
-Step 369 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5547, p: 0
-Hit Rate: 42.46%
-Step 370 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5547, p: 0
-Hit Rate: 42.58%
-Step 371 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5547, p: 0
-Hit Rate: 42.70%
-Step 372 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5547, p: 0
-Hit Rate: 42.82%
-Step 373 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5547, p: 0
-Hit Rate: 42.94%
-Step 374 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.90%
-Step 375 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 43.02%
-Step 376 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5547, p: 0
-Hit Rate: 42.95%
-Step 377 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.83%
-Step 378 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.95%
-Step 379 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.84%
-Step 380 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.93%
-Step 381 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 43.05%
-Step 382 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5548, p: 0
-Hit Rate: 42.92%
-Step 383 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.84%
-Step 384 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.77%
- 39%|███▊      | 386/1000 [00:18<00:30, 19.99it/s] 39%|███▉      | 389/1000 [00:18<00:28, 21.47it/s] 39%|███▉      | 392/1000 [00:18<00:40, 14.97it/s] 39%|███▉      | 394/1000 [00:18<00:39, 15.49it/s] 40%|███▉      | 396/1000 [00:18<00:38, 15.58it/s] 40%|███▉      | 398/1000 [00:18<00:46, 12.98it/s] 40%|████      | 400/1000 [00:19<00:48, 12.37it/s] 40%|████      | 402/1000 [00:19<00:47, 12.69it/s] 40%|████      | 404/1000 [00:19<00:49, 12.15it/s] 41%|████      | 406/1000 [00:19<00:44, 13.46it/s] 41%|████      | 409/1000 [00:19<00:39, 15.00it/s] 41%|████      | 412/1000 [00:19<00:37, 15.59it/s] 41%|████▏     | 414/1000 [00:20<00:48, 12.03it/s] 42%|████▏     | 416/1000 [00:20<00:55, 10.60it/s] 42%|████▏     | 422/1000 [00:20<00:36, 15.66it/s] 43%|████▎     | 427/1000 [00:20<00:28, 19.94it/s] 43%|████▎     | 430/1000 [00:21<00:32, 17.79it/s] 43%|████▎     | 432/1000 [00:21<00:31, 18.04it/s] 44%|████▎     | 436/1000 [00:21<00:28, 19.83it/s] 44%|████▍     | 439/1000 [00:21<00:31, 17.70it/s] 44%|████▍     | 445/1000 [00:21<00:23, 23.66it/s] 45%|████▍     | 448/1000 [00:21<00:28, 19.43it/s] 45%|████▌     | 454/1000 [00:22<00:22, 24.76it/s] 46%|████▌     | 458/1000 [00:22<00:20, 26.10it/s] 46%|████▌     | 462/1000 [00:22<00:21, 24.83it/s] 46%|████▋     | 465/1000 [00:22<00:24, 21.59it/s] 47%|████▋     | 469/1000 [00:22<00:26, 20.23it/s] 47%|████▋     | 472/1000 [00:23<00:30, 17.19it/s] 47%|████▋     | 474/1000 [00:23<00:32, 16.23it/s] 48%|████▊     | 476/1000 [00:23<00:38, 13.48it/s] 48%|████▊     | 479/1000 [00:23<00:34, 15.16it/s]Step 385 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.75%
-Step 386 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.67%
-Step 387 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.77%
-Step 388 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.88%
-Step 389 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.76%
-Step 390 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.64%
-Step 391 ARCSeqCacheEasy T1: 64, T2: 5936, B1: 6000, B2: 5674, p: 63
-Hit Rate: 42.53%
-Step 392 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6064, B2: 5610, p: 0
-Hit Rate: 42.33%
-Step 393 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6064, B2: 5610, p: 0
-Hit Rate: 42.25%
-Step 394 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5611, p: 0
-Hit Rate: 42.19%
-Step 395 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5611, p: 0
-Hit Rate: 42.30%
-Step 396 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5611, p: 0
-Hit Rate: 42.17%
-Step 397 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5611, p: 0
-Hit Rate: 41.94%
-Step 398 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5611, p: 0
-Hit Rate: 42.21%
-Step 399 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5294, B2: 6317, p: 706
-Hit Rate: 42.10%
-Step 400 ARCSeqCacheEasy T1: 707, T2: 5293, B1: 5313, B2: 6000, p: 706
-Hit Rate: 41.98%
-Step 401 ARCSeqCacheEasy T1: 707, T2: 5293, B1: 5313, B2: 6000, p: 706
-Hit Rate: 42.10%
-Step 402 ARCSeqCacheEasy T1: 707, T2: 5293, B1: 6000, B2: 6000, p: 706
-Hit Rate: 41.96%
-Step 403 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6707, B2: 5293, p: 0
-Hit Rate: 41.83%
-Step 404 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.77%
-Step 405 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.86%
-Step 406 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.75%
-Step 407 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.80%
-Step 408 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.91%
-Step 409 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.75%
-Step 410 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.86%
-Step 411 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.95%
-Step 412 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5294, p: 0
-Hit Rate: 41.77%
-Step 413 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4855, B2: 6439, p: 1145
-Hit Rate: 41.60%
-Step 414 ARCSeqCacheEasy T1: 492, T2: 5508, B1: 4855, B2: 6000, p: 1145
-Hit Rate: 41.52%
-Step 415 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 5361, B2: 5890, p: 381
-Hit Rate: 41.35%
-Step 416 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 5975, B2: 5890, p: 381
-Hit Rate: 41.25%
-Step 417 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 5975, B2: 5890, p: 381
-Hit Rate: 41.34%
-Step 418 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 5975, B2: 5890, p: 381
-Hit Rate: 41.43%
-Step 419 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 6000, B2: 5890, p: 381
-Hit Rate: 41.40%
-Step 420 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 6000, B2: 5890, p: 381
-Hit Rate: 41.55%
-Step 421 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 6000, B2: 5890, p: 381
-Hit Rate: 41.49%
-Step 422 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 6000, B2: 5890, p: 381
-Hit Rate: 41.38%
-Step 423 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 6000, B2: 5890, p: 381
-Hit Rate: 41.49%
-Step 424 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 6000, B2: 5890, p: 381
-Hit Rate: 41.66%
-Step 425 ARCSeqCacheEasy T1: 382, T2: 5618, B1: 6000, B2: 5890, p: 381
-Hit Rate: 41.77%
-Step 426 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6382, B2: 5508, p: 0
-Hit Rate: 41.70%
-Step 427 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6382, B2: 5508, p: 0
-Hit Rate: 41.86%
-Step 428 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.73%
-Step 429 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5508, p: 0
-Hit Rate: 41.66%
-Step 430 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5508, p: 0
-Hit Rate: 41.77%
-Step 431 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5508, p: 0
-Hit Rate: 41.87%
-Step 432 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.78%
-Step 433 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.73%
-Step 434 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.84%
-Step 435 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.95%
-Step 436 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.83%
-Step 437 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.94%
-Step 438 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.81%
-Step 439 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.74%
-Step 440 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.84%
-Step 441 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.95%
-Step 442 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.91%
-Step 443 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 42.01%
-Step 444 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 42.11%
-Step 445 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 42.01%
-Step 446 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5509, p: 0
-Hit Rate: 41.82%
-Step 447 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5778, B2: 5731, p: 222
-Hit Rate: 41.79%
-Step 448 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5778, B2: 5731, p: 222
-Hit Rate: 41.93%
-Step 449 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5778, B2: 5731, p: 222
-Hit Rate: 42.03%
-Step 450 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5778, B2: 5731, p: 222
-Hit Rate: 42.13%
-Step 451 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 5900, B2: 5953, p: 222
-Hit Rate: 42.08%
-Step 452 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 5900, B2: 5953, p: 222
-Hit Rate: 42.17%
-Step 453 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 5900, B2: 5953, p: 222
-Hit Rate: 42.41%
-Step 454 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.34%
-Step 455 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.44%
-Step 456 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.60%
-Step 457 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.70%
-Step 458 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.59%
-Step 459 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.68%
-Step 460 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.78%
-Step 461 ARCSeqCacheEasy T1: 223, T2: 5777, B1: 6000, B2: 5953, p: 222
-Hit Rate: 42.88%
-Step 462 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6223, B2: 5730, p: 0
-Hit Rate: 42.69%
-Step 463 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5731, p: 0
-Hit Rate: 42.64%
-Step 464 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5730, p: 0
-Hit Rate: 42.55%
-Step 465 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5731, p: 0
-Hit Rate: 42.50%
-Step 466 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5731, p: 0
-Hit Rate: 42.59%
-Step 467 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5730, p: 0
-Hit Rate: 42.53%
-Step 468 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5731, p: 0
-Hit Rate: 42.51%
-Step 469 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5730, p: 0
-Hit Rate: 42.34%
-Step 470 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5641, B2: 6090, p: 360
-Hit Rate: 42.29%
-Step 471 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5641, B2: 6090, p: 360
-Hit Rate: 42.39%
-Step 472 ARCSeqCacheEasy T1: 361, T2: 5639, B1: 6000, B2: 6000, p: 360
-Hit Rate: 42.22%
-Step 473 ARCSeqCacheEasy T1: 361, T2: 5639, B1: 6000, B2: 6000, p: 360
-Hit Rate: 42.32%
-Step 474 ARCSeqCacheEasy T1: 361, T2: 5639, B1: 6000, B2: 6000, p: 360
-Hit Rate: 42.19%
-Step 475 ARCSeqCacheEasy T1: 361, T2: 5639, B1: 6000, B2: 6000, p: 360
-Hit Rate: 42.14%
-Step 476 ARCSeqCacheEasy T1: 361, T2: 5639, B1: 6000, B2: 6000, p: 360
-Hit Rate: 42.00%
-Step 477 ARCSeqCacheEasy T1: 361, T2: 5639, B1: 6000, B2: 6000, p: 360
-Hit Rate: 42.09%
-Step 478 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6361, B2: 5639, p: 0
-Hit Rate: 42.03%
-Step 479 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5640, p: 0
-Hit Rate: 41.99%
- 48%|████▊     | 481/1000 [00:23<00:33, 15.31it/s] 48%|████▊     | 483/1000 [00:23<00:35, 14.48it/s] 49%|████▊     | 486/1000 [00:24<00:33, 15.30it/s] 49%|████▉     | 489/1000 [00:24<00:29, 17.37it/s] 49%|████▉     | 491/1000 [00:24<00:29, 17.01it/s] 49%|████▉     | 494/1000 [00:24<00:37, 13.45it/s] 50%|████▉     | 499/1000 [00:24<00:30, 16.43it/s] 50%|█████     | 501/1000 [00:24<00:31, 15.72it/s] 50%|█████     | 504/1000 [00:25<00:28, 17.33it/s] 51%|█████     | 507/1000 [00:25<00:25, 19.37it/s] 51%|█████     | 510/1000 [00:25<00:30, 16.01it/s] 51%|█████     | 512/1000 [00:25<00:31, 15.45it/s] 51%|█████▏    | 514/1000 [00:25<00:39, 12.39it/s] 52%|█████▏    | 518/1000 [00:26<00:30, 15.61it/s] 52%|█████▏    | 520/1000 [00:26<00:31, 15.15it/s] 52%|█████▏    | 523/1000 [00:26<00:35, 13.31it/s] 52%|█████▎    | 525/1000 [00:26<00:42, 11.05it/s] 53%|█████▎    | 527/1000 [00:26<00:39, 11.92it/s] 53%|█████▎    | 530/1000 [00:27<00:32, 14.33it/s] 53%|█████▎    | 532/1000 [00:27<00:35, 13.30it/s] 53%|█████▎    | 534/1000 [00:27<00:32, 14.19it/s] 54%|█████▎    | 536/1000 [00:27<00:42, 10.87it/s] 54%|█████▍    | 538/1000 [00:27<00:49,  9.35it/s] 54%|█████▍    | 540/1000 [00:27<00:41, 11.01it/s] 54%|█████▍    | 542/1000 [00:28<00:49,  9.28it/s] 55%|█████▍    | 546/1000 [00:28<00:32, 14.07it/s] 55%|█████▌    | 550/1000 [00:28<00:24, 18.16it/s] 55%|█████▌    | 554/1000 [00:28<00:21, 20.65it/s] 56%|█████▌    | 557/1000 [00:28<00:19, 22.47it/s] 56%|█████▌    | 560/1000 [00:28<00:18, 23.56it/s] 56%|█████▋    | 563/1000 [00:29<00:19, 22.99it/s] 57%|█████▋    | 568/1000 [00:29<00:20, 20.76it/s] 57%|█████▋    | 571/1000 [00:29<00:20, 20.68it/s] 57%|█████▋    | 574/1000 [00:29<00:19, 21.55it/s]Step 480 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5655, B2: 5985, p: 345
-Hit Rate: 41.94%
-Step 481 ARCSeqCacheEasy T1: 283, T2: 5717, B1: 5747, B2: 6000, p: 282
-Hit Rate: 41.88%
-Step 482 ARCSeqCacheEasy T1: 283, T2: 5717, B1: 6000, B2: 6000, p: 282
-Hit Rate: 41.83%
-Step 483 ARCSeqCacheEasy T1: 283, T2: 5717, B1: 6000, B2: 6000, p: 282
-Hit Rate: 41.75%
-Step 484 ARCSeqCacheEasy T1: 283, T2: 5717, B1: 5626, B2: 6374, p: 656
-Hit Rate: 41.71%
-Step 485 ARCSeqCacheEasy T1: 283, T2: 5717, B1: 5626, B2: 6374, p: 656
-Hit Rate: 41.84%
-Step 486 ARCSeqCacheEasy T1: 657, T2: 5343, B1: 5920, B2: 6000, p: 656
-Hit Rate: 41.75%
-Step 487 ARCSeqCacheEasy T1: 657, T2: 5343, B1: 5920, B2: 6000, p: 656
-Hit Rate: 41.85%
-Step 488 ARCSeqCacheEasy T1: 657, T2: 5343, B1: 5920, B2: 6000, p: 656
-Hit Rate: 41.92%
-Step 489 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6577, B2: 5343, p: 0
-Hit Rate: 41.77%
-Step 490 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5670, B2: 6250, p: 907
-Hit Rate: 41.65%
-Step 491 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5056, B2: 6864, p: 1521
-Hit Rate: 41.57%
-Step 492 ARCSeqCacheEasy T1: 275, T2: 5725, B1: 5056, B2: 6000, p: 1521
-Hit Rate: 41.53%
-Step 493 ARCSeqCacheEasy T1: 275, T2: 5725, B1: 5056, B2: 6000, p: 1521
-Hit Rate: 41.61%
-Step 494 ARCSeqCacheEasy T1: 275, T2: 5725, B1: 5056, B2: 6000, p: 313
-Hit Rate: 41.45%
-Step 495 ARCSeqCacheEasy T1: 275, T2: 5725, B1: 5056, B2: 6000, p: 313
-Hit Rate: 41.56%
-Step 496 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5331, B2: 5725, p: 0
-Hit Rate: 41.50%
-Step 497 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5331, B2: 5725, p: 0
-Hit Rate: 41.63%
-Step 498 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5331, B2: 5725, p: 0
-Hit Rate: 41.72%
-Step 499 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.61%
-Step 500 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.59%
-Step 501 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.49%
-Step 502 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.47%
-Step 503 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.54%
-Step 504 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.46%
-Step 505 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.42%
-Step 506 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.52%
-Step 507 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.46%
-Step 508 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.35%
-Step 509 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5725, p: 0
-Hit Rate: 41.53%
-Step 510 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5726, p: 0
-Hit Rate: 41.45%
-Step 511 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5725, B2: 6001, p: 275
-Hit Rate: 41.42%
-Step 512 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5726, B2: 6000, p: 0
-Hit Rate: 41.26%
-Step 513 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.14%
-Step 514 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.06%
-Step 515 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.15%
-Step 516 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.24%
-Step 517 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.22%
-Step 518 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.13%
-Step 519 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.02%
-Step 520 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.11%
-Step 521 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 41.08%
-Step 522 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5772, B2: 6228, p: 228
-Hit Rate: 41.05%
-Step 523 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.90%
-Step 524 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.84%
-Step 525 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.70%
-Step 526 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.60%
-Step 527 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.82%
-Step 528 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.89%
-Step 529 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.98%
-Step 530 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.89%
-Step 531 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.81%
-Step 532 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.76%
-Step 533 ARCSeqCacheEasy T1: 229, T2: 5771, B1: 6000, B2: 6000, p: 228
-Hit Rate: 40.73%
-Step 534 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6229, B2: 5771, p: 0
-Hit Rate: 40.67%
-Step 535 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.51%
-Step 536 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.45%
-Step 537 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.39%
-Step 538 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5771, p: 0
-Hit Rate: 40.25%
-Step 539 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5771, p: 0
-Hit Rate: 40.18%
-Step 540 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5771, p: 0
-Hit Rate: 40.27%
-Step 541 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.17%
-Step 542 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.06%
-Step 543 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.26%
-Step 544 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.24%
-Step 545 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5772, p: 0
-Hit Rate: 40.29%
-Step 546 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5771, p: 0
-Hit Rate: 40.23%
-Step 547 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5771, p: 0
-Hit Rate: 40.32%
-Step 548 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5822, B2: 5950, p: 179
-Hit Rate: 40.30%
-Step 549 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5822, B2: 5950, p: 0
-Hit Rate: 40.26%
-Step 550 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4421, B2: 7351, p: 1401
-Hit Rate: 40.10%
-Step 551 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4421, B2: 7351, p: 1401
-Hit Rate: 40.16%
-Step 552 ARCSeqCacheEasy T1: 431, T2: 5569, B1: 4421, B2: 6000, p: 1401
-Hit Rate: 40.11%
-Step 553 ARCSeqCacheEasy T1: 431, T2: 5569, B1: 4421, B2: 6000, p: 1401
-Hit Rate: 40.19%
-Step 554 ARCSeqCacheEasy T1: 923, T2: 5077, B1: 4421, B2: 6000, p: 1401
-Hit Rate: 40.13%
-Step 555 ARCSeqCacheEasy T1: 1333, T2: 4667, B1: 4421, B2: 6000, p: 1401
-Hit Rate: 40.09%
-Step 556 ARCSeqCacheEasy T1: 1173, T2: 4827, B1: 4581, B2: 5840, p: 1173
-Hit Rate: 40.06%
-Step 557 ARCSeqCacheEasy T1: 1173, T2: 4827, B1: 4581, B2: 5840, p: 1173
-Hit Rate: 40.15%
-Step 558 ARCSeqCacheEasy T1: 1173, T2: 4827, B1: 4581, B2: 5840, p: 1173
-Hit Rate: 40.23%
-Step 559 ARCSeqCacheEasy T1: 1174, T2: 4826, B1: 5305, B2: 5841, p: 1173
-Hit Rate: 40.15%
-Step 560 ARCSeqCacheEasy T1: 1174, T2: 4826, B1: 5305, B2: 5841, p: 1173
-Hit Rate: 40.20%
-Step 561 ARCSeqCacheEasy T1: 1174, T2: 4826, B1: 5778, B2: 5841, p: 1173
-Hit Rate: 40.15%
-Step 562 ARCSeqCacheEasy T1: 913, T2: 5087, B1: 6039, B2: 5580, p: 912
-Hit Rate: 40.27%
-Step 563 ARCSeqCacheEasy T1: 913, T2: 5087, B1: 6039, B2: 5580, p: 912
-Hit Rate: 40.36%
-Step 564 ARCSeqCacheEasy T1: 913, T2: 5087, B1: 6039, B2: 5580, p: 912
-Hit Rate: 40.44%
-Step 565 ARCSeqCacheEasy T1: 913, T2: 5087, B1: 6039, B2: 5580, p: 912
-Hit Rate: 40.52%
-Step 566 ARCSeqCacheEasy T1: 913, T2: 5087, B1: 6000, B2: 5580, p: 912
-Hit Rate: 40.49%
-Step 567 ARCSeqCacheEasy T1: 913, T2: 5087, B1: 6000, B2: 5580, p: 912
-Hit Rate: 40.53%
-Step 568 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6913, B2: 4667, p: 0
-Hit Rate: 40.39%
-Step 569 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.28%
-Step 570 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.36%
-Step 571 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.41%
-Step 572 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.34%
-Step 573 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.38%
-Step 574 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4667, p: 0
-Hit Rate: 40.33%
- 58%|█████▊    | 577/1000 [00:29<00:23, 17.67it/s] 58%|█████▊    | 579/1000 [00:29<00:26, 16.16it/s] 58%|█████▊    | 582/1000 [00:30<00:26, 15.74it/s] 58%|█████▊    | 584/1000 [00:30<00:28, 14.56it/s] 59%|█████▊    | 586/1000 [00:30<00:31, 13.28it/s] 59%|█████▉    | 592/1000 [00:30<00:22, 17.85it/s] 59%|█████▉    | 594/1000 [00:30<00:22, 17.99it/s] 60%|█████▉    | 596/1000 [00:31<00:27, 14.63it/s] 61%|██████    | 612/1000 [00:31<00:09, 39.43it/s] 62%|██████▏   | 619/1000 [00:31<00:09, 38.31it/s] 62%|██████▏   | 624/1000 [00:31<00:10, 36.64it/s] 63%|██████▎   | 629/1000 [00:31<00:09, 37.41it/s] 63%|██████▎   | 634/1000 [00:32<00:13, 27.94it/s] 64%|██████▍   | 642/1000 [00:32<00:10, 35.45it/s] 65%|██████▍   | 647/1000 [00:32<00:10, 33.01it/s] 65%|██████▌   | 651/1000 [00:32<00:15, 22.80it/s] 65%|██████▌   | 654/1000 [00:32<00:14, 23.80it/s] 66%|██████▌   | 657/1000 [00:32<00:14, 23.68it/s] 66%|██████▌   | 660/1000 [00:33<00:20, 16.98it/s] 66%|██████▋   | 663/1000 [00:33<00:20, 16.54it/s]Step 575 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.25%
-Step 576 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4667, p: 0
-Hit Rate: 40.12%
-Step 577 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4667, p: 0
-Hit Rate: 40.20%
-Step 578 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.17%
-Step 579 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.08%
-Step 580 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.27%
-Step 581 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4667, p: 0
-Hit Rate: 40.21%
-Step 582 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4668, p: 0
-Hit Rate: 40.11%
-Step 583 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5203, B2: 5465, p: 797
-Hit Rate: 40.02%
-Step 584 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5203, B2: 5465, p: 389
-Hit Rate: 39.98%
-Step 585 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 5974, B2: 5854, p: 389
-Hit Rate: 39.86%
-Step 586 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 5974, B2: 5854, p: 389
-Hit Rate: 40.05%
-Step 587 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 5974, B2: 5854, p: 389
-Hit Rate: 40.13%
-Step 588 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 5974, B2: 5854, p: 389
-Hit Rate: 40.21%
-Step 589 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 5974, B2: 5854, p: 389
-Hit Rate: 40.29%
-Step 590 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 5974, B2: 5854, p: 389
-Hit Rate: 40.37%
-Step 591 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 5974, B2: 5854, p: 389
-Hit Rate: 40.46%
-Step 592 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 6000, B2: 5854, p: 389
-Hit Rate: 40.32%
-Step 593 ARCSeqCacheEasy T1: 390, T2: 5610, B1: 6000, B2: 5854, p: 389
-Hit Rate: 40.50%
-Step 594 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6390, B2: 5464, p: 0
-Hit Rate: 40.45%
-Step 595 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 40.38%
-Step 596 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 40.30%
-Step 597 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.28%
-Step 598 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.36%
-Step 599 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.55%
-Step 600 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.62%
-Step 601 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.70%
-Step 602 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.77%
-Step 603 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.84%
-Step 604 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 40.92%
-Step 605 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 41.00%
-Step 606 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 41.09%
-Step 607 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 41.28%
-Step 608 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 41.35%
-Step 609 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5464, p: 0
-Hit Rate: 41.47%
-Step 610 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.43%
-Step 611 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.51%
-Step 612 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.47%
-Step 613 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.54%
-Step 614 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.62%
-Step 615 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.59%
-Step 616 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.56%
-Step 617 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.64%
-Step 618 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.70%
-Step 619 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.62%
-Step 620 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.58%
-Step 621 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.76%
-Step 622 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 41.94%
-Step 623 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5465, p: 0
-Hit Rate: 42.01%
-Step 624 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5225, B2: 6240, p: 775
-Hit Rate: 41.92%
-Step 625 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5225, B2: 6240, p: 500
-Hit Rate: 41.90%
-Step 626 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5225, B2: 6240, p: 500
-Hit Rate: 41.97%
-Step 627 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5225, B2: 6240, p: 500
-Hit Rate: 42.05%
-Step 628 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4853, B2: 6612, p: 872
-Hit Rate: 42.02%
-Step 629 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4853, B2: 6612, p: 872
-Hit Rate: 42.09%
-Step 630 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 4853, B2: 6612, p: 872
-Hit Rate: 42.26%
-Step 631 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4853, B2: 6000, p: 872
-Hit Rate: 42.17%
-Step 632 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4150, B2: 6703, p: 1575
-Hit Rate: 42.10%
-Step 633 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4150, B2: 6703, p: 1230
-Hit Rate: 42.07%
-Step 634 ARCSeqCacheEasy T1: 978, T2: 5022, B1: 4150, B2: 6000, p: 1230
-Hit Rate: 42.05%
-Step 635 ARCSeqCacheEasy T1: 978, T2: 5022, B1: 4150, B2: 6000, p: 1230
-Hit Rate: 42.13%
-Step 636 ARCSeqCacheEasy T1: 978, T2: 5022, B1: 4150, B2: 6000, p: 1230
-Hit Rate: 42.21%
-Step 637 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4150, B2: 6000, p: 1230
-Hit Rate: 42.23%
-Step 638 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4150, B2: 6000, p: 1230
-Hit Rate: 42.40%
-Step 639 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4150, B2: 6000, p: 1230
-Hit Rate: 42.57%
-Step 640 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4150, B2: 6000, p: 1002
-Hit Rate: 42.55%
-Step 641 ARCSeqCacheEasy T1: 837, T2: 5163, B1: 4150, B2: 6000, p: 1002
-Hit Rate: 42.62%
-Step 642 ARCSeqCacheEasy T1: 594, T2: 5406, B1: 4393, B2: 5757, p: 594
-Hit Rate: 42.58%
-Step 643 ARCSeqCacheEasy T1: 594, T2: 5406, B1: 4393, B2: 5757, p: 594
-Hit Rate: 42.75%
-Step 644 ARCSeqCacheEasy T1: 594, T2: 5406, B1: 4393, B2: 5757, p: 594
-Hit Rate: 42.80%
-Step 645 ARCSeqCacheEasy T1: 594, T2: 5406, B1: 4393, B2: 5757, p: 594
-Hit Rate: 42.87%
-Step 646 ARCSeqCacheEasy T1: 595, T2: 5405, B1: 5299, B2: 5758, p: 594
-Hit Rate: 42.78%
-Step 647 ARCSeqCacheEasy T1: 595, T2: 5405, B1: 5566, B2: 5758, p: 594
-Hit Rate: 42.75%
-Step 648 ARCSeqCacheEasy T1: 595, T2: 5405, B1: 6000, B2: 5758, p: 594
-Hit Rate: 42.69%
-Step 649 ARCSeqCacheEasy T1: 595, T2: 5405, B1: 6000, B2: 5758, p: 594
-Hit Rate: 42.62%
-Step 650 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6595, B2: 5163, p: 0
-Hit Rate: 42.54%
-Step 651 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6595, B2: 5163, p: 0
-Hit Rate: 42.61%
-Step 652 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6595, B2: 5163, p: 0
-Hit Rate: 42.63%
-Step 653 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5164, p: 0
-Hit Rate: 42.56%
-Step 654 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5164, p: 0
-Hit Rate: 42.61%
-Step 655 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5163, p: 0
-Hit Rate: 42.48%
-Step 656 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5163, p: 0
-Hit Rate: 42.55%
-Step 657 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5163, p: 0
-Hit Rate: 42.61%
-Step 658 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5163, p: 0
-Hit Rate: 42.56%
-Step 659 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.43%
-Step 660 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.38%
-Step 661 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.45%
-Step 662 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.42%
-Step 663 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.33%
-Step 664 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.49%
-Step 665 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.56%
-Step 666 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.63%
-Step 667 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.79%
-Step 668 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 42.86%
-Step 669 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 43.02%
- 67%|██████▋   | 672/1000 [00:33<00:11, 27.50it/s] 68%|██████▊   | 676/1000 [00:33<00:12, 26.18it/s] 68%|██████▊   | 680/1000 [00:33<00:12, 26.29it/s] 68%|██████▊   | 684/1000 [00:34<00:13, 22.87it/s] 69%|██████▊   | 687/1000 [00:34<00:13, 22.47it/s] 69%|██████▉   | 690/1000 [00:34<00:14, 21.95it/s] 69%|██████▉   | 693/1000 [00:34<00:19, 16.08it/s] 70%|██████▉   | 698/1000 [00:34<00:15, 19.52it/s] 70%|███████   | 703/1000 [00:35<00:13, 22.51it/s] 71%|███████   | 706/1000 [00:35<00:12, 23.55it/s] 71%|███████   | 709/1000 [00:35<00:12, 23.76it/s] 71%|███████   | 712/1000 [00:35<00:15, 19.02it/s] 72%|███████▏  | 717/1000 [00:35<00:11, 23.59it/s] 72%|███████▏  | 720/1000 [00:36<00:16, 17.13it/s] 72%|███████▏  | 724/1000 [00:36<00:13, 20.07it/s] 73%|███████▎  | 727/1000 [00:36<00:13, 20.81it/s] 73%|███████▎  | 730/1000 [00:36<00:14, 18.06it/s] 73%|███████▎  | 733/1000 [00:36<00:14, 18.25it/s] 74%|███████▎  | 736/1000 [00:36<00:13, 19.80it/s] 74%|███████▍  | 739/1000 [00:37<00:21, 12.00it/s] 74%|███████▍  | 742/1000 [00:37<00:19, 13.38it/s] 74%|███████▍  | 744/1000 [00:37<00:18, 13.61it/s] 75%|███████▍  | 746/1000 [00:37<00:17, 14.72it/s] 75%|███████▍  | 749/1000 [00:37<00:14, 17.65it/s] 75%|███████▌  | 752/1000 [00:37<00:12, 20.23it/s] 76%|███████▌  | 756/1000 [00:38<00:12, 20.09it/s] 76%|███████▌  | 759/1000 [00:38<00:12, 19.20it/s] 76%|███████▌  | 762/1000 [00:38<00:13, 17.23it/s]Step 670 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 43.08%
-Step 671 ARCSeqCacheEasy T1: 120, T2: 5880, B1: 6000, B2: 5402, p: 119
-Hit Rate: 43.14%
-Step 672 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6120, B2: 5282, p: 0
-Hit Rate: 43.07%
-Step 673 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6120, B2: 5282, p: 0
-Hit Rate: 43.14%
-Step 674 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6120, B2: 5282, p: 0
-Hit Rate: 43.11%
-Step 675 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6120, B2: 5282, p: 0
-Hit Rate: 43.09%
-Step 676 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.03%
-Step 677 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.10%
-Step 678 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.13%
-Step 679 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.10%
-Step 680 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.03%
-Step 681 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 42.92%
-Step 682 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.08%
-Step 683 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.14%
-Step 684 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5282, p: 0
-Hit Rate: 43.13%
-Step 685 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5283, p: 0
-Hit Rate: 43.07%
-Step 686 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5282, p: 0
-Hit Rate: 43.03%
-Step 687 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5509, B2: 5774, p: 492
-Hit Rate: 42.98%
-Step 688 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5509, B2: 5774, p: 492
-Hit Rate: 43.03%
-Step 689 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 42.89%
-Step 690 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.05%
-Step 691 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.10%
-Step 692 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 42.99%
-Step 693 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 42.91%
-Step 694 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.07%
-Step 695 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.10%
-Step 696 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.07%
-Step 697 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.13%
-Step 698 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.06%
-Step 699 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.13%
-Step 700 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.05%
-Step 701 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.04%
-Step 702 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.10%
-Step 703 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.06%
-Step 704 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.12%
-Step 705 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.19%
-Step 706 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.13%
-Step 707 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.18%
-Step 708 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.11%
-Step 709 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.26%
-Step 710 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.21%
-Step 711 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.14%
-Step 712 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.12%
-Step 713 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5775, p: 0
-Hit Rate: 43.21%
-Step 714 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.19%
-Step 715 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5774, p: 0
-Hit Rate: 43.25%
-Step 716 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5441, B2: 6334, p: 560
-Hit Rate: 43.20%
-Step 717 ARCSeqCacheEasy T1: 456, T2: 5544, B1: 5441, B2: 6000, p: 560
-Hit Rate: 43.16%
-Step 718 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 6000, B2: 6000, p: 560
-Hit Rate: 43.09%
-Step 719 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 6000, B2: 6000, p: 560
-Hit Rate: 43.15%
-Step 720 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 6000, B2: 6000, p: 560
-Hit Rate: 43.05%
-Step 721 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 6000, B2: 6000, p: 560
-Hit Rate: 43.04%
-Step 722 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 6000, B2: 6000, p: 560
-Hit Rate: 43.19%
-Step 723 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 6000, B2: 6000, p: 560
-Hit Rate: 43.25%
-Step 724 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 6000, B2: 6000, p: 560
-Hit Rate: 43.20%
-Step 725 ARCSeqCacheEasy T1: 561, T2: 5439, B1: 5320, B2: 6680, p: 1240
-Hit Rate: 43.13%
-Step 726 ARCSeqCacheEasy T1: 1053, T2: 4947, B1: 5320, B2: 6000, p: 1240
-Hit Rate: 43.09%
-Step 727 ARCSeqCacheEasy T1: 1053, T2: 4947, B1: 5320, B2: 6000, p: 1240
-Hit Rate: 43.15%
-Step 728 ARCSeqCacheEasy T1: 1241, T2: 4759, B1: 6000, B2: 6000, p: 1240
-Hit Rate: 43.04%
-Step 729 ARCSeqCacheEasy T1: 1241, T2: 4759, B1: 6000, B2: 6000, p: 1240
-Hit Rate: 43.18%
-Step 730 ARCSeqCacheEasy T1: 1241, T2: 4759, B1: 6000, B2: 6000, p: 1240
-Hit Rate: 43.24%
-Step 731 ARCSeqCacheEasy T1: 1241, T2: 4759, B1: 6000, B2: 6000, p: 1240
-Hit Rate: 43.31%
-Step 732 ARCSeqCacheEasy T1: 1241, T2: 4759, B1: 6000, B2: 6000, p: 1240
-Hit Rate: 43.24%
-Step 733 ARCSeqCacheEasy T1: 1241, T2: 4759, B1: 6000, B2: 6000, p: 1240
-Hit Rate: 43.22%
-Step 734 ARCSeqCacheEasy T1: 896, T2: 5104, B1: 6345, B2: 5655, p: 895
-Hit Rate: 43.19%
-Step 735 ARCSeqCacheEasy T1: 896, T2: 5104, B1: 6345, B2: 5655, p: 895
-Hit Rate: 43.25%
-Step 736 ARCSeqCacheEasy T1: 896, T2: 5104, B1: 6000, B2: 5655, p: 895
-Hit Rate: 43.21%
-Step 737 ARCSeqCacheEasy T1: 896, T2: 5104, B1: 6000, B2: 5655, p: 895
-Hit Rate: 43.24%
-Step 738 ARCSeqCacheEasy T1: 896, T2: 5104, B1: 6000, B2: 5655, p: 895
-Hit Rate: 43.13%
-Step 739 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6896, B2: 4759, p: 0
-Hit Rate: 43.02%
-Step 740 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6896, B2: 4759, p: 0
-Hit Rate: 43.05%
-Step 741 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.99%
-Step 742 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4759, p: 0
-Hit Rate: 42.95%
-Step 743 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.92%
-Step 744 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4759, p: 0
-Hit Rate: 42.85%
-Step 745 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4759, p: 0
-Hit Rate: 42.99%
-Step 746 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.93%
-Step 747 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.96%
-Step 748 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 4759, p: 0
-Hit Rate: 42.95%
-Step 749 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.90%
-Step 750 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.86%
-Step 751 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.92%
-Step 752 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4760, p: 0
-Hit Rate: 42.90%
-Step 753 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5563, B2: 5197, p: 437
-Hit Rate: 42.86%
-Step 754 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5563, B2: 5197, p: 437
-Hit Rate: 42.92%
-Step 755 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5563, B2: 5197, p: 437
-Hit Rate: 42.98%
-Step 756 ARCSeqCacheEasy T1: 300, T2: 5700, B1: 4601, B2: 6000, p: 1399
-Hit Rate: 42.87%
-Step 757 ARCSeqCacheEasy T1: 300, T2: 5700, B1: 4601, B2: 6000, p: 1124
-Hit Rate: 42.84%
-Step 758 ARCSeqCacheEasy T1: 300, T2: 5700, B1: 4601, B2: 6000, p: 1124
-Hit Rate: 42.86%
-Step 759 ARCSeqCacheEasy T1: 1109, T2: 4891, B1: 4601, B2: 6000, p: 1124
-Hit Rate: 42.79%
-Step 760 ARCSeqCacheEasy T1: 1125, T2: 4875, B1: 5325, B2: 6000, p: 1124
-Hit Rate: 42.72%
-Step 761 ARCSeqCacheEasy T1: 1125, T2: 4875, B1: 5325, B2: 6000, p: 1124
-Hit Rate: 42.78%
-Step 762 ARCSeqCacheEasy T1: 717, T2: 5283, B1: 5733, B2: 5592, p: 716
-Hit Rate: 42.75%
-Step 763 ARCSeqCacheEasy T1: 717, T2: 5283, B1: 5733, B2: 5592, p: 716
-Hit Rate: 42.89%
-Step 764 ARCSeqCacheEasy T1: 402, T2: 5598, B1: 5990, B2: 5335, p: 459
-Hit Rate: 42.86%
- 77%|███████▋  | 766/1000 [00:38<00:11, 20.13it/s] 77%|███████▋  | 769/1000 [00:38<00:11, 20.61it/s] 77%|███████▋  | 772/1000 [00:38<00:11, 19.88it/s] 78%|███████▊  | 778/1000 [00:39<00:08, 25.03it/s] 78%|███████▊  | 781/1000 [00:39<00:14, 15.08it/s] 79%|███████▊  | 786/1000 [00:39<00:10, 19.46it/s] 79%|███████▉  | 789/1000 [00:39<00:11, 17.93it/s] 79%|███████▉  | 792/1000 [00:40<00:12, 16.91it/s] 79%|███████▉  | 794/1000 [00:40<00:13, 15.53it/s] 80%|███████▉  | 796/1000 [00:40<00:14, 13.82it/s] 80%|███████▉  | 798/1000 [00:40<00:16, 12.32it/s] 80%|████████  | 800/1000 [00:40<00:17, 11.12it/s] 80%|████████  | 804/1000 [00:41<00:14, 13.14it/s] 81%|████████  | 806/1000 [00:41<00:15, 12.34it/s] 81%|████████  | 808/1000 [00:41<00:17, 11.14it/s] 81%|████████  | 811/1000 [00:41<00:14, 12.84it/s] 81%|████████▏ | 813/1000 [00:41<00:15, 12.10it/s] 82%|████████▏ | 816/1000 [00:42<00:12, 15.03it/s] 82%|████████▏ | 821/1000 [00:42<00:09, 19.71it/s] 83%|████████▎ | 826/1000 [00:42<00:08, 20.14it/s] 83%|████████▎ | 831/1000 [00:42<00:09, 18.76it/s] 84%|████████▎ | 835/1000 [00:42<00:07, 20.76it/s] 84%|████████▍ | 838/1000 [00:42<00:07, 20.67it/s] 84%|████████▍ | 841/1000 [00:43<00:09, 17.49it/s] 84%|████████▍ | 844/1000 [00:43<00:10, 15.21it/s] 85%|████████▌ | 852/1000 [00:43<00:06, 21.55it/s] 86%|████████▌ | 855/1000 [00:43<00:07, 20.57it/s] 86%|████████▌ | 859/1000 [00:44<00:06, 21.71it/s]Step 765 ARCSeqCacheEasy T1: 402, T2: 5598, B1: 5990, B2: 5335, p: 459
-Hit Rate: 42.92%
-Step 766 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6392, B2: 4933, p: 0
-Hit Rate: 42.87%
-Step 767 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 4934, p: 0
-Hit Rate: 42.82%
-Step 768 ARCSeqCacheEasy T1: 143, T2: 5857, B1: 5732, B2: 5344, p: 268
-Hit Rate: 42.78%
-Step 769 ARCSeqCacheEasy T1: 143, T2: 5857, B1: 5732, B2: 5344, p: 268
-Hit Rate: 42.84%
-Step 770 ARCSeqCacheEasy T1: 269, T2: 5731, B1: 6000, B2: 5470, p: 268
-Hit Rate: 42.76%
-Step 771 ARCSeqCacheEasy T1: 269, T2: 5731, B1: 6000, B2: 5470, p: 268
-Hit Rate: 42.82%
-Step 772 ARCSeqCacheEasy T1: 269, T2: 5731, B1: 6000, B2: 5470, p: 268
-Hit Rate: 42.81%
-Step 773 ARCSeqCacheEasy T1: 269, T2: 5731, B1: 6000, B2: 5470, p: 268
-Hit Rate: 42.87%
-Step 774 ARCSeqCacheEasy T1: 210, T2: 5790, B1: 6059, B2: 5411, p: 209
-Hit Rate: 42.88%
-Step 775 ARCSeqCacheEasy T1: 210, T2: 5790, B1: 5760, B2: 5710, p: 508
-Hit Rate: 42.97%
-Step 776 ARCSeqCacheEasy T1: 210, T2: 5790, B1: 5760, B2: 5710, p: 508
-Hit Rate: 43.03%
-Step 777 ARCSeqCacheEasy T1: 210, T2: 5790, B1: 5760, B2: 5710, p: 508
-Hit Rate: 43.17%
-Step 778 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 43.11%
-Step 779 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 43.03%
-Step 780 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 42.92%
-Step 781 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 42.89%
-Step 782 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 42.90%
-Step 783 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 43.04%
-Step 784 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 43.10%
-Step 785 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 43.23%
-Step 786 ARCSeqCacheEasy T1: 509, T2: 5491, B1: 6000, B2: 6000, p: 508
-Hit Rate: 43.17%
-Step 787 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6509, B2: 5491, p: 0
-Hit Rate: 43.11%
-Step 788 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6509, B2: 5491, p: 0
-Hit Rate: 43.14%
-Step 789 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 43.09%
-Step 790 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.98%
-Step 791 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 43.04%
-Step 792 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 43.11%
-Step 793 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 43.04%
-Step 794 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 43.02%
-Step 795 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 43.08%
-Step 796 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.97%
-Step 797 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.89%
-Step 798 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 42.88%
-Step 799 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.82%
-Step 800 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.76%
-Step 801 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.72%
-Step 802 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.78%
-Step 803 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.85%
-Step 804 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.78%
-Step 805 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 42.67%
-Step 806 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.66%
-Step 807 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.64%
-Step 808 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.54%
-Step 809 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.49%
-Step 810 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.55%
-Step 811 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.51%
-Step 812 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.41%
-Step 813 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.47%
-Step 814 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.45%
-Step 815 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.44%
-Step 816 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 42.41%
-Step 817 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.39%
-Step 818 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.41%
-Step 819 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.47%
-Step 820 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 42.47%
-Step 821 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.44%
-Step 822 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.49%
-Step 823 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.55%
-Step 824 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.57%
-Step 825 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5491, p: 0
-Hit Rate: 42.56%
-Step 826 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.45%
-Step 827 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.50%
-Step 828 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.56%
-Step 829 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5492, p: 0
-Hit Rate: 42.54%
-Step 830 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5386, B2: 6106, p: 614
-Hit Rate: 42.50%
-Step 831 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5387, B2: 6105, p: 0
-Hit Rate: 42.43%
-Step 832 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5387, B2: 6105, p: 0
-Hit Rate: 42.50%
-Step 833 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5387, B2: 6105, p: 0
-Hit Rate: 42.56%
-Step 834 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5387, B2: 6105, p: 0
-Hit Rate: 42.61%
-Step 835 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5387, B2: 6105, p: 0
-Hit Rate: 42.55%
-Step 836 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5387, B2: 6105, p: 0
-Hit Rate: 42.68%
-Step 837 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.61%
-Step 838 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.66%
-Step 839 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 42.69%
-Step 840 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.60%
-Step 841 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.65%
-Step 842 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.63%
-Step 843 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.69%
-Step 844 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.58%
-Step 845 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.64%
-Step 846 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.77%
-Step 847 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.82%
-Step 848 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.80%
-Step 849 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.89%
-Step 850 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.87%
-Step 851 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.92%
-Step 852 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.86%
-Step 853 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.99%
-Step 854 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 42.91%
-Step 855 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.04%
-Step 856 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.16%
-Step 857 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.22%
-Step 858 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.16%
-Step 859 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.12%
-Step 860 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.17%
- 86%|████████▌ | 862/1000 [00:44<00:06, 20.58it/s] 87%|████████▋ | 866/1000 [00:44<00:06, 21.47it/s] 87%|████████▋ | 869/1000 [00:44<00:07, 18.33it/s] 87%|████████▋ | 871/1000 [00:44<00:09, 13.77it/s] 87%|████████▋ | 873/1000 [00:45<00:10, 12.31it/s] 88%|████████▊ | 877/1000 [00:45<00:08, 15.29it/s] 88%|████████▊ | 885/1000 [00:45<00:04, 25.27it/s] 89%|████████▉ | 891/1000 [00:45<00:03, 28.75it/s] 90%|████████▉ | 895/1000 [00:45<00:04, 21.31it/s] 90%|████████▉ | 898/1000 [00:46<00:05, 20.24it/s] 90%|█████████ | 904/1000 [00:46<00:03, 26.44it/s] 91%|█████████ | 908/1000 [00:46<00:04, 19.85it/s] 92%|█████████▏| 915/1000 [00:46<00:03, 25.45it/s] 92%|█████████▏| 919/1000 [00:46<00:03, 22.63it/s] 92%|█████████▏| 922/1000 [00:47<00:03, 21.24it/s] 93%|█████████▎| 928/1000 [00:47<00:02, 27.21it/s] 93%|█████████▎| 932/1000 [00:47<00:03, 18.46it/s] 94%|█████████▎| 935/1000 [00:47<00:03, 18.90it/s] 94%|█████████▍| 938/1000 [00:47<00:03, 19.34it/s] 94%|█████████▍| 941/1000 [00:48<00:02, 20.15it/s] 94%|█████████▍| 944/1000 [00:48<00:02, 20.52it/s] 95%|█████████▍| 948/1000 [00:48<00:02, 23.75it/s] 95%|█████████▌| 951/1000 [00:48<00:02, 19.14it/s] 95%|█████████▌| 954/1000 [00:48<00:02, 19.36it/s]Step 861 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.15%
-Step 862 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.10%
-Step 863 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.07%
-Step 864 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.20%
-Step 865 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.18%
-Step 866 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.15%
-Step 867 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.20%
-Step 868 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.32%
-Step 869 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.21%
-Step 870 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.11%
-Step 871 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.08%
-Step 872 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 43.20%
-Step 873 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.10%
-Step 874 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.12%
-Step 875 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.17%
-Step 876 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.23%
-Step 877 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.16%
-Step 878 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.14%
-Step 879 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.19%
-Step 880 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.31%
-Step 881 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.43%
-Step 882 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.42%
-Step 883 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.47%
-Step 884 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.52%
-Step 885 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.50%
-Step 886 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.55%
-Step 887 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.53%
-Step 888 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.65%
-Step 889 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.70%
-Step 890 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.82%
-Step 891 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.77%
-Step 892 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.68%
-Step 893 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.64%
-Step 894 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.66%
-Step 895 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5821, B2: 6179, p: 179
-Hit Rate: 43.65%
-Step 896 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 5821, B2: 6179, p: 179
-Hit Rate: 43.77%
-Step 897 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5822, B2: 6178, p: 0
-Hit Rate: 43.74%
-Step 898 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.68%
-Step 899 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.73%
-Step 900 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.78%
-Step 901 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.90%
-Step 902 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.95%
-Step 903 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.07%
-Step 904 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 44.02%
-Step 905 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 44.14%
-Step 906 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.08%
-Step 907 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 43.99%
-Step 908 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.03%
-Step 909 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.15%
-Step 910 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.17%
-Step 911 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.15%
-Step 912 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.26%
-Step 913 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 44.23%
-Step 914 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 44.25%
-Step 915 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.23%
-Step 916 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.35%
-Step 917 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.38%
-Step 918 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.33%
-Step 919 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.28%
-Step 920 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.33%
-Step 921 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.32%
-Step 922 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5999, p: 0
-Hit Rate: 44.26%
-Step 923 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5192, B2: 6808, p: 809
-Hit Rate: 44.20%
-Step 924 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 5192, B2: 6000, p: 809
-Hit Rate: 44.18%
-Step 925 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 5192, B2: 6000, p: 809
-Hit Rate: 44.30%
-Step 926 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 5192, B2: 6000, p: 809
-Hit Rate: 44.34%
-Step 927 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 5192, B2: 6000, p: 809
-Hit Rate: 44.46%
-Step 928 ARCSeqCacheEasy T1: 304, T2: 5696, B1: 5192, B2: 6000, p: 668
-Hit Rate: 44.45%
-Step 929 ARCSeqCacheEasy T1: 669, T2: 5331, B1: 5987, B2: 6000, p: 668
-Hit Rate: 44.36%
-Step 930 ARCSeqCacheEasy T1: 669, T2: 5331, B1: 5987, B2: 6000, p: 668
-Hit Rate: 44.47%
-Step 931 ARCSeqCacheEasy T1: 669, T2: 5331, B1: 5987, B2: 6000, p: 668
-Hit Rate: 44.52%
-Step 932 ARCSeqCacheEasy T1: 669, T2: 5331, B1: 6000, B2: 6000, p: 668
-Hit Rate: 44.43%
-Step 933 ARCSeqCacheEasy T1: 669, T2: 5331, B1: 6000, B2: 6000, p: 668
-Hit Rate: 44.40%
-Step 934 ARCSeqCacheEasy T1: 324, T2: 5676, B1: 6345, B2: 5655, p: 323
-Hit Rate: 44.37%
-Step 935 ARCSeqCacheEasy T1: 324, T2: 5676, B1: 6345, B2: 5655, p: 323
-Hit Rate: 44.42%
-Step 936 ARCSeqCacheEasy T1: 324, T2: 5676, B1: 6345, B2: 5655, p: 323
-Hit Rate: 44.46%
-Step 937 ARCSeqCacheEasy T1: 324, T2: 5676, B1: 6345, B2: 5655, p: 323
-Hit Rate: 44.50%
-Step 938 ARCSeqCacheEasy T1: 324, T2: 5676, B1: 6000, B2: 5655, p: 323
-Hit Rate: 44.44%
-Step 939 ARCSeqCacheEasy T1: 324, T2: 5676, B1: 6000, B2: 5655, p: 323
-Hit Rate: 44.49%
-Step 940 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6324, B2: 5331, p: 0
-Hit Rate: 44.44%
-Step 941 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6324, B2: 5331, p: 0
-Hit Rate: 44.47%
-Step 942 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5927, B2: 5728, p: 397
-Hit Rate: 44.44%
-Step 943 ARCSeqCacheEasy T1: 265, T2: 5735, B1: 5927, B2: 5993, p: 397
-Hit Rate: 44.42%
-Step 944 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.39%
-Step 945 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.50%
-Step 946 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.55%
-Step 947 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.59%
-Step 948 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.54%
-Step 949 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.53%
-Step 950 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.51%
-Step 951 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.44%
-Step 952 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.42%
-Step 953 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 6000, B2: 6000, p: 397
-Hit Rate: 44.47%
-Step 954 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 5131, B2: 6869, p: 1266
-Hit Rate: 44.41%
-Step 955 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 5131, B2: 6869, p: 1001
-Hit Rate: 44.48%
-Step 956 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 5131, B2: 6869, p: 773
- 96%|█████████▌| 957/1000 [00:48<00:02, 17.20it/s] 96%|█████████▌| 962/1000 [00:49<00:01, 20.38it/s] 96%|█████████▋| 965/1000 [00:49<00:01, 21.87it/s] 97%|█████████▋| 968/1000 [00:49<00:01, 18.43it/s] 97%|█████████▋| 971/1000 [00:49<00:01, 18.17it/s] 97%|█████████▋| 973/1000 [00:49<00:02, 13.49it/s] 98%|█████████▊| 979/1000 [00:50<00:01, 20.24it/s] 98%|█████████▊| 982/1000 [00:50<00:01, 17.59it/s] 98%|█████████▊| 985/1000 [00:50<00:00, 17.87it/s] 99%|█████████▉| 988/1000 [00:50<00:00, 15.19it/s] 99%|█████████▉| 990/1000 [00:50<00:00, 13.91it/s] 99%|█████████▉| 992/1000 [00:51<00:00, 14.75it/s]100%|█████████▉| 997/1000 [00:51<00:00, 16.64it/s]100%|█████████▉| 999/1000 [00:51<00:00, 14.93it/s]100%|██████████| 1000/1000 [00:51<00:00, 19.39it/s]
-Hit Rate: 44.46%
-Step 957 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 5131, B2: 6869, p: 428
-Hit Rate: 44.44%
-Step 958 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 5131, B2: 6869, p: 428
-Hit Rate: 44.48%
-Step 959 ARCSeqCacheEasy T1: 398, T2: 5602, B1: 5131, B2: 6869, p: 428
-Hit Rate: 44.53%
-Step 960 ARCSeqCacheEasy T1: 429, T2: 5571, B1: 5251, B2: 6000, p: 428
-Hit Rate: 44.52%
-Step 961 ARCSeqCacheEasy T1: 429, T2: 5571, B1: 5251, B2: 6000, p: 428
-Hit Rate: 44.56%
-Step 962 ARCSeqCacheEasy T1: 387, T2: 5613, B1: 4354, B2: 6897, p: 1325
-Hit Rate: 44.50%
-Step 963 ARCSeqCacheEasy T1: 387, T2: 5613, B1: 4354, B2: 6897, p: 1325
-Hit Rate: 44.61%
-Step 964 ARCSeqCacheEasy T1: 387, T2: 5613, B1: 4354, B2: 6897, p: 1325
-Hit Rate: 44.63%
-Step 965 ARCSeqCacheEasy T1: 387, T2: 5613, B1: 4354, B2: 6897, p: 917
-Hit Rate: 44.60%
-Step 966 ARCSeqCacheEasy T1: 387, T2: 5613, B1: 4354, B2: 6897, p: 436
-Hit Rate: 44.57%
-Step 967 ARCSeqCacheEasy T1: 437, T2: 5563, B1: 5220, B2: 6000, p: 436
-Hit Rate: 44.50%
-Step 968 ARCSeqCacheEasy T1: 437, T2: 5563, B1: 5220, B2: 6000, p: 436
-Hit Rate: 44.54%
-Step 969 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5657, B2: 5563, p: 0
-Hit Rate: 44.50%
-Step 970 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5657, B2: 5563, p: 0
-Hit Rate: 44.45%
-Step 971 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5421, B2: 5799, p: 236
-Hit Rate: 44.43%
-Step 972 ARCSeqCacheEasy T1: 237, T2: 5763, B1: 5850, B2: 6000, p: 236
-Hit Rate: 44.38%
-Step 973 ARCSeqCacheEasy T1: 237, T2: 5763, B1: 6000, B2: 6000, p: 236
-Hit Rate: 44.31%
-Step 974 ARCSeqCacheEasy T1: 237, T2: 5763, B1: 6000, B2: 6000, p: 236
-Hit Rate: 44.42%
-Step 975 ARCSeqCacheEasy T1: 237, T2: 5763, B1: 6000, B2: 6000, p: 236
-Hit Rate: 44.46%
-Step 976 ARCSeqCacheEasy T1: 237, T2: 5763, B1: 6000, B2: 6000, p: 236
-Hit Rate: 44.57%
-Step 977 ARCSeqCacheEasy T1: 237, T2: 5763, B1: 5733, B2: 6267, p: 503
-Hit Rate: 44.55%
-Step 978 ARCSeqCacheEasy T1: 237, T2: 5763, B1: 5733, B2: 6267, p: 503
-Hit Rate: 44.60%
-Step 979 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.54%
-Step 980 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.56%
-Step 981 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.60%
-Step 982 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.51%
-Step 983 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.55%
-Step 984 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 6000, p: 0
-Hit Rate: 44.60%
-Step 985 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 4927, B2: 7073, p: 1073
-Hit Rate: 44.52%
-Step 986 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 4836, B2: 7164, p: 1164
-Hit Rate: 44.58%
-Step 987 ARCSeqCacheEasy T1: 249, T2: 5751, B1: 4836, B2: 6000, p: 1164
-Hit Rate: 44.56%
-Step 988 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5085, B2: 5751, p: 0
-Hit Rate: 44.47%
-Step 989 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 5085, B2: 5751, p: 0
-Hit Rate: 44.58%
-Step 990 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5752, p: 0
-Hit Rate: 44.49%
-Step 991 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5752, p: 0
-Hit Rate: 44.47%
-Step 992 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5752, p: 0
-Hit Rate: 44.45%
-Step 993 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5751, p: 0
-Hit Rate: 44.42%
-Step 994 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5751, p: 0
-Hit Rate: 44.44%
-Step 995 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5751, p: 0
-Hit Rate: 44.49%
-Step 996 ARCSeqCacheEasy T1: 0, T2: 6000, B1: 6001, B2: 5751, p: 0
-Hit Rate: 44.53%
-Step 997 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5752, p: 0
-Hit Rate: 44.45%
-Step 998 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5752, p: 0
-Hit Rate: 44.50%
-Step 999 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5752, p: 0
-Hit Rate: 44.42%
-Step 1000 ARCSeqCacheEasy T1: 1, T2: 5999, B1: 6000, B2: 5752, p: 0
-Hit Rate: 44.37%
-Hit Rate: 44.37%

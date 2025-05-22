@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Keep these file types
+!*.py
+!*.sh
+!*.md
+!*.csv
+
+# Keep .gitignore itself
+!.gitignore
+
+# Keep directory structure
+!*/
