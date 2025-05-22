@@ -6,6 +6,7 @@
 !*.sh
 !*.md
 !*.csv
+!*.ipynb
 
 # Keep .gitignore itself
 !.gitignore
